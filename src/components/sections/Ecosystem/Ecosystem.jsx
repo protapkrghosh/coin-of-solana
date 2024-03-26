@@ -25,7 +25,7 @@ const Ecosystem = () => {
             <div>
               <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] lg:w-[70%] mx-auto 2xl:ml-[97px] xl:ml-[97px] lg:ml-[80px]' src={ecoBgImg} alt="image" />
 
-              {/* left side section  */}
+              {/* left side section */}
               <div className='relative'>
                 {/* left side card 1 */}
 
