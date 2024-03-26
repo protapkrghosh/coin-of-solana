@@ -21,7 +21,7 @@ const Ecosystem = () => {
         <div className='border border-white 2xl:relative'>
           {/* ecosystem section titel  */}
           <div>
-            <p className='text-[#FFF] text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
+            <p className='text-[#FFF] 2xl:text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
           </div>
 
           {/* ecosystem all info part  */}
