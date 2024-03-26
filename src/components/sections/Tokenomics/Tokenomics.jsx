@@ -14,6 +14,7 @@ const Tokenomics = () => {
 
           {/* Tokenomics content */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            {/* Token content */}
             <div>
               <h3 className='text-[#fff] text-[50px] 2xl:text-[55px] font-semibold'>Tokenomics</h3>
 
@@ -42,6 +43,11 @@ const Tokenomics = () => {
                   <p className='text-[#CCC2C2] text-[24px] font-normal'>CEX and Future team</p>
                 </div>
               </div>
+            </div>
+
+            {/* chart */}
+            <div>
+              
             </div>
           </div>
         </div>
