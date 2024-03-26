@@ -6,7 +6,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className='bg-gradient-to-r from-[#191610] to-[#191610]'>
+    <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mb-1'>
       <Container>
         <div style={{ backgroundImage: `url(${forgeImg})` }} className='bg-no-repeat bg-left pt-52 pb-16 -mt-[140px] lg:-mt-[125px]'>
           <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-0'>
