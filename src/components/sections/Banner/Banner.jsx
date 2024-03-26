@@ -10,11 +10,11 @@ const Banner = () => {
       <Container>
         <div style={{ backgroundImage: `url(${forgeImg})` }} className='bg-no-repeat bg-left pt-52 pb-16 -mt-[125px]'>
           <div className='md:flex justify-between items-center gap-0'>
-            <div className='w-1/2 2xl:w-[52%]'>
+            <div className='w-1/2 xl:w-[55%] 2xl:w-[52%]'>
               <div>
-                <p className='text-white text-[64px] font-normal -mb-5'>The Community</p>
+                <p className='text-white text-[56px] 2xl:text-[64px] font-normal -mb-5'>The Community</p>
 
-                <h1 className='text-[64px] font-bold'><span className="bg-clip-text text-transparent bg-gradient-to-r from-[#D1CB18] to-[#E77962]">Coin of Solana </span></h1>
+                <h1 className='text-[56px] 2xl:text-[64px] font-bold'><span className="bg-clip-text text-transparent bg-gradient-to-r from-[#D1CB18] to-[#E77962]">Coin of Solana </span></h1>
 
                 <p className='text-[#CBC2C2] text-[18px] font-normal mt-8 mb-14'>The new token PERRY v2 is here to make memecoins great again. The most memeable memecoin in existence. Tje PEPE have had their day, it’s time for PERRY to take reign!</p>
 
@@ -41,7 +41,7 @@ const Banner = () => {
             </div>
 
             {/* Banner Image */}
-            <div className='w-1/2 2xl:w-[48%] 2xl:-mr-10'>
+            <div className='w-1/2 xl:w-[45%] 2xl:w-[48%] xl:-mr-16 2xl:-mr-10'>
               <img src={bannerImg} alt="Image" className='w-[500px] 2xl:w-auto 2xl:scale-105' />
             </div>
           </div>
