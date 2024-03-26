@@ -93,9 +93,9 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[80px] xl:bottom-[60px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[80px] xl:bottom-[60px] lg:bottom-[40px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[60px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[60px] xl:h-[60px] lg:h-[50px]'>
                       <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon4} alt="" />
                     </div>
                     <div>
@@ -104,9 +104,9 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[-40px] xl:bottom-[-35px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[-40px] xl:bottom-[-35px] lg:bottom-[-25px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[60px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[60px] xl:h-[60px] lg:h-[50px]'>
                       <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon5} alt="" />
                     </div>
                     <div>
