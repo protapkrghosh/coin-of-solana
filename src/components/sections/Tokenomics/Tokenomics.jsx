@@ -4,43 +4,44 @@ import forgeImg2 from '@/assets/tokenomics/Designer2.png';
 import forgeImg3 from '@/assets/tokenomics/Designer3.png';
 import forgeImg4 from '@/assets/tokenomics/Designer4.png';
 import forgeImg5 from '@/assets/tokenomics/Designer5.png';
+import chartImg from '@/assets/tokenomics/Group81.png';
 import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
 const Tokenomics = () => {
-  const data = [
-    { name: 'Group A', value: 450 },
-    { name: 'Group B', value: 130 },
-    { name: 'Group C', value: 130 },
-    { name: 'Group D', value: 500 },
-  ];
+  // const data = [
+  //   { name: 'Group A', value: 450 },
+  //   { name: 'Group B', value: 130 },
+  //   { name: 'Group C', value: 130 },
+  //   { name: 'Group D', value: 500 },
+  // ];
 
-  const COLORS = ['#D3C31F', '#71D420', '#B1B21B', '#D49920'];
+  // const COLORS = ['#D3C31F', '#71D420', '#B1B21B', '#D49920'];
 
-  const RADIAN = Math.PI / 180;
-  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
-    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-    const x = cx + radius * Math.cos(-midAngle * RADIAN);
-    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+  // const RADIAN = Math.PI / 180;
+  // const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+  //   const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+  //   const x = cx + radius * Math.cos(-midAngle * RADIAN);
+  //   const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
-    return (
-      <text x={x} y={y} fill="#000" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-        {`${(percent * 100).toFixed(0)}%`}
-      </text>
-    );
-  };
+  //   return (
+  //     <text x={x} y={y} fill="#000" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
+  //       {`${(percent * 100).toFixed(0)}%`}
+  //     </text>
+  //   );
+  // };
 
   return (
-    <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1'>
+    <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 pb-28'>
       <Container>
-        <div style={{ backgroundImage: `url(${forgeImg1})` }} className='bg-no-repeat bg-top'>
+        <div className='bg-no-repeat bg-top'>
           <p className='text-[#CCC2C2] text-[18px] text-center font-normal 2xl:w-[87%] mx-auto pt-14'>Why EGOM ?  $EGOM is like the coolest meme coin ever, created by a bunch of friends who love jokes and funny stuff. It's not just about making money, it's about having fun and being part of a cool community. Having some $EGOM your life just makes everything better!</p>
 
           {/* Tokenomics content */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-36 pb-44'>
             {/* Token content */}
             <div>
-              <h3 className='text-[#fff] text-[50px] 2xl:text-[55px] font-semibold'>Tokenomics</h3>
+              <h3 className='text-[#fff] text-[50px] 2xl:text-[55px] font-semibold mb-8'>Tokenomics</h3>
 
               <div className='space-y-10'>
                 {/* LP */}
@@ -70,8 +71,8 @@ const Tokenomics = () => {
             </div>
 
             {/* chart */}
-            <div>
-              <ResponsiveContainer width="100%" height="100%">
+            <div className=''>
+              {/* <ResponsiveContainer width="100%" height="100%">
                 <PieChart width={600} height={600}>
                   <Pie
                     data={data}
@@ -89,7 +90,8 @@ const Tokenomics = () => {
                     ))}
                   </Pie>
                 </PieChart>
-              </ResponsiveContainer>
+              </ResponsiveContainer> */}
+              <img src={chartImg} alt="Image" className='w-[90%]' />
             </div>
 
 
@@ -114,6 +116,12 @@ const Tokenomics = () => {
               <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
                 <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of CEX and Future team</span></p>
               </div>
+            </div>
+          </div>
+
+          <div className='flex justify-center'>
+            <div className="bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#e7e01a] hover:to-[#fa8168] rounded-[17px] w-fit">
+              <button className="text-[#FFF] 2xl:text-[20px] px-6 2xl:px-20 py-[15px] rounded-[30px]">Buy Now</button>
             </div>
           </div>
         </div>
