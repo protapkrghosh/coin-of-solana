@@ -50,7 +50,7 @@ const Ecosystem = () => {
 
             {/* right side bar card  */}
 
-            <div className='2xl:absolute'>
+            <div className='2xl:absolute 2xl:right-[-126px] 2xl:bottom-[500px]'>
               <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                 <div className='ecoborderRightIcon flex justify-center items-center'>
                   <img className='2xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
