@@ -40,6 +40,12 @@ body {
   bottom: -20px !important;
 }
 
+/* Footer shadow */
+.shadowBg {
+  background: #000000;
+  filter: blur(250px);
+  /* mix-blend-mode: lighten; */
+}
 
 @layer base {
   :root {
