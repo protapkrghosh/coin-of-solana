@@ -34,45 +34,51 @@ const Tokenomics = () => {
   return (
     <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 pb-28'>
       <Container>
-        <div className='bg-no-repeat bg-top'>
-          <p className='text-[#CCC2C2] text-[18px] text-center font-normal 2xl:w-[87%] mx-auto pt-14'>Why EGOM ?  $EGOM is like the coolest meme coin ever, created by a bunch of friends who love jokes and funny stuff. It's not just about making money, it's about having fun and being part of a cool community. Having some $EGOM your life just makes everything better!</p>
+        <div>
 
-          {/* Tokenomics content */}
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-36 pb-44'>
-            {/* Token content */}
-            <div>
-              <h3 className='text-[#fff] text-[50px] 2xl:text-[55px] font-semibold mb-8'>Tokenomics</h3>
+          <div className='flex justify-center -mb-[450px]'>
+            <img src={forgeImg1} alt="Image" className='w-[450px] mt-10 mr-12' />
+          </div>
 
-              <div className='space-y-10'>
-                {/* LP */}
-                <div className='flex items-center'>
-                  <div className='w-24 h-10 border-2 border-[#D6B829] rounded-full mr-5' />
-                  <p className='text-[#CCC2C2] text-[24px] font-normal'>Lp</p>
-                </div>
+          <div className='bg-no-repeat bg-top'>
+            <p className='text-[#CCC2C2] text-[18px] text-center font-normal 2xl:w-[87%] mx-auto pt-14'>Why EGOM ?  $EGOM is like the coolest meme coin ever, created by a bunch of friends who love jokes and funny stuff. It's not just about making money, it's about having fun and being part of a cool community. Having some $EGOM your life just makes everything better!</p>
 
-                {/* Presale */}
-                <div className='flex items-center'>
-                  <div className='w-24 h-10 border-2 border-[#E48259] rounded-full mr-5' />
-                  <p className='text-[#CCC2C2] text-[24px] font-normal'>Presale</p>
-                </div>
+            {/* Tokenomics content */}
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-36 pb-36'>
+              {/* Token content */}
+              <div>
+                <h3 className='text-[#fff] text-[50px] 2xl:text-[55px] font-semibold mb-8'>Tokenomics</h3>
 
-                {/* Marketing  */}
-                <div className='flex items-center'>
-                  <div className='w-24 h-10 border-2 border-[#B1B21B] rounded-full mr-5' />
-                  <p className='text-[#CCC2C2] text-[24px] font-normal'>Marketing </p>
-                </div>
+                <div className='space-y-10'>
+                  {/* LP */}
+                  <div className='flex items-center'>
+                    <div className='w-24 h-10 border-2 border-[#D6B829] rounded-full mr-5' />
+                    <p className='text-[#CCC2C2] text-[24px] font-normal'>Lp</p>
+                  </div>
 
-                {/* Future team */}
-                <div className='flex items-center'>
-                  <div className='w-24 h-10 border-2 border-[#71D420] rounded-full mr-5' />
-                  <p className='text-[#CCC2C2] text-[24px] font-normal'>CEX and Future team</p>
+                  {/* Presale */}
+                  <div className='flex items-center'>
+                    <div className='w-24 h-10 border-2 border-[#E48259] rounded-full mr-5' />
+                    <p className='text-[#CCC2C2] text-[24px] font-normal'>Presale</p>
+                  </div>
+
+                  {/* Marketing  */}
+                  <div className='flex items-center'>
+                    <div className='w-24 h-10 border-2 border-[#B1B21B] rounded-full mr-5' />
+                    <p className='text-[#CCC2C2] text-[24px] font-normal'>Marketing </p>
+                  </div>
+
+                  {/* Future team */}
+                  <div className='flex items-center'>
+                    <div className='w-24 h-10 border-2 border-[#71D420] rounded-full mr-5' />
+                    <p className='text-[#CCC2C2] text-[24px] font-normal'>CEX and Future team</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* chart */}
-            <div className=''>
-              {/* <ResponsiveContainer width="100%" height="100%">
+              {/* chart */}
+              <div className=''>
+                {/* <ResponsiveContainer width="100%" height="100%">
                 <PieChart width={600} height={600}>
                   <Pie
                     data={data}
@@ -91,40 +97,42 @@ const Tokenomics = () => {
                   </Pie>
                 </PieChart>
               </ResponsiveContainer> */}
-              <img src={chartImg} alt="Image" className='w-[90%]' />
+                <img src={chartImg} alt="Image" className='w-[90%]' />
+              </div>
+
+
+              {/* Gradient button */}
+              <div className='space-y-8'>
+                <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                  <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>Token supply 1,000,000,000</p>
+                </div>
+
+                <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full w-[82%]'>
+                  <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>45% <span className='text-[#bbb]'>of Token go to LP</span></p>
+                </div>
+
+                <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                  <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>45% <span className='text-[#bbb]'>of token go to Presale</span></p>
+                </div>
+
+                <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full'>
+                  <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of token go to Marketing</span></p>
+                </div>
+
+                <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                  <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of CEX and Future team</span></p>
+                </div>
+              </div>
             </div>
 
-
-            {/* Gradient button */}
-            <div className='space-y-8'>
-              <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
-                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>Token supply 1,000,000,000</p>
+            <div className='flex justify-center'>
+              <div className="bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#e7e01a] hover:to-[#fa8168] rounded-[17px] w-fit">
+                <button className="text-[#FFF] 2xl:text-[20px] px-6 2xl:px-20 py-[15px] rounded-[30px]">Buy Now</button>
               </div>
-
-              <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full w-[82%]'>
-                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>45% <span className='text-[#bbb]'>of Token go to LP</span></p>
-              </div>
-
-              <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
-                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>45% <span className='text-[#bbb]'>of token go to Presale</span></p>
-              </div>
-
-              <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full'>
-                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of token go to Marketing</span></p>
-              </div>
-
-              <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
-                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of CEX and Future team</span></p>
-              </div>
-            </div>
-          </div>
-
-          <div className='flex justify-center'>
-            <div className="bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#e7e01a] hover:to-[#fa8168] rounded-[17px] w-fit">
-              <button className="text-[#FFF] 2xl:text-[20px] px-6 2xl:px-20 py-[15px] rounded-[30px]">Buy Now</button>
             </div>
           </div>
         </div>
+
       </Container>
     </div>
   );
