@@ -18,13 +18,13 @@ const Ecosystem = () => {
             <p className='text-[#FFF] text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
           </div>
 
-          <div className='2xl:absolute 2xl:left-[55px]'>
+          <div className='2xl:absolute 2xl:left-[90px]'>
             <div className='flex justify-evenly'>
               <img className='2xl:w-auto 2xl:mt-[162px]' src={ecoBgImg} alt="" />
             </div>
 
             {/* left side card 1 */}
-            <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:bottom-[490px] 2xl:left-7'>
+            <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:bottom-[490px] 2xl:left-[-95px]'>
               <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
               <div className='ecoborderleft flex justify-center items-center'>
                 <img className='2xl:w-auto' src={ecoBgImgleftIcon1} alt="" />
@@ -32,7 +32,7 @@ const Ecosystem = () => {
             </div>
 
             {/* left side card 2 */}
-            <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:bottom-56 2xl:left-7'>
+            <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:bottom-56 2xl:left-[-95px]'>
               <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
               <div className='ecoborderleft flex justify-center items-center'>
                 <img className='2xl:w-auto' src={ecoBgImgleftIcon2} alt="" />
@@ -40,7 +40,7 @@ const Ecosystem = () => {
             </div>
 
             {/* left side card 3 */}
-            <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:-bottom-10 2xl:left-7'>
+            <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:-bottom-10 2xl:left-[-95px]'>
               <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
               <div className='ecoborderleft flex justify-center items-center'>
                 <img className='2xl:w-auto' src={ecoBgImgleftIcon3} alt="" />
@@ -49,8 +49,19 @@ const Ecosystem = () => {
 
 
             {/* right side bar card  */}
+            <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[500px]'>
+              <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                </div>
+                <div>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
+                </div>
+              </div>
+            </div>
 
-            <div className='2xl:absolute 2xl:right-[-126px] 2xl:bottom-[500px]'>
+            {/* right side bar card  */}
+            <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[360px]'>
               <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                 <div className='ecoborderRightIcon flex justify-center items-center'>
                   <img className='2xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
