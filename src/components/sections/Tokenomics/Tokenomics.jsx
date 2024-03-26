@@ -79,7 +79,7 @@ const Tokenomics = () => {
                     cy="50%"
                     labelLine={false}
                     label={renderCustomizedLabel}
-                    outerRadius={180}
+                    outerRadius={190}
                     fill="#8884d8"
                     dataKey="value"
                     className='text-[24px]'
@@ -90,6 +90,30 @@ const Tokenomics = () => {
                   </Pie>
                 </PieChart>
               </ResponsiveContainer>
+            </div>
+
+
+            {/* Gradient button */}
+            <div className='space-y-8'>
+              <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>Token supply 1,000,000,000</p>
+              </div>
+
+              <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full w-[82%]'>
+                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>45% <span className='text-[#bbb]'>of Token go to LP</span></p>
+              </div>
+
+              <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>45% <span className='text-[#bbb]'>of token go to Presale</span></p>
+              </div>
+
+              <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full'>
+                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of token go to Marketing</span></p>
+              </div>
+
+              <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                <p className='text-white text-[23px] py-4 px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of CEX and Future team</span></p>
+              </div>
             </div>
           </div>
         </div>
