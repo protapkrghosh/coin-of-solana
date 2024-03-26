@@ -21,14 +21,14 @@ const Ecosystem = () => {
         <div className='border border-white 2xl:relative'>
           {/* ecosystem section titel  */}
           <div>
-            <p className='text-[#FFF] 2xl:text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
+            <p className='text-[#FFF] 2xl:text-[66px] xl:text-[60px] leading-[79.2px] text-center'>ECOSYSTEM</p>
           </div>
 
           {/* ecosystem all info part  */}
           <div className='2xl:absolute 2xl:left-[90px]'>
             <img className='2xl:w-auto xl:absolute 2xl:top-[370px] 2xl:left-[505px]' src={cricleIcon} alt="" />
             <div className='flex justify-evenly'>
-              <img className='2xl:w-auto 2xl:mt-[162px]' src={ecoBgImg} alt="" />
+              <img className='2xl:w-auto 2xl:mt-[162px] xl:mt-[160px]' src={ecoBgImg} alt="" />
             </div>
 
             {/* left side icon section  */}
