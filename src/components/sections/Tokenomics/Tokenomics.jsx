@@ -38,11 +38,10 @@ const Tokenomics = () => {
 
   return (
     <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 relative'>
-      <div style={{backgroundImage: `url(${forgeImg4})`}} className='bg-no-repeat bg-left-bottom'>
+      <div style={{ backgroundImage: `url(${forgeImg4})` }} className='bg-no-repeat bg-left-bottom'>
         <div style={{ backgroundImage: `url(${forgeImg3})` }} className='bg-no-repeat bg-right-bottom'>
           <Container>
             <div>
-
               <div className='flex justify-center -mb-[450px]'>
                 <img src={forgeImg1} alt="Image" className='w-[450px] mt-10 mr-12' />
               </div>
@@ -84,29 +83,33 @@ const Tokenomics = () => {
                   </div>
 
                   {/* chart */}
-                  <div className=''>
+                  <div className='relative'>
                     {/* <ResponsiveContainer width="100%" height="100%">
-                <PieChart width={600} height={600}>
-                  <Pie
-                    data={data}
-                    cx="50%"
-                    cy="50%"
-                    labelLine={false}
-                    label={renderCustomizedLabel}
-                    outerRadius={190}
-                    fill="#8884d8"
-                    dataKey="value"
-                    className='text-[24px]'
-                  >
-                    {data.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
-                  </Pie>
-                </PieChart>
-              </ResponsiveContainer> */}
+                      <PieChart width={600} height={600}>
+                        <Pie
+                          data={data}
+                          cx="50%"
+                          cy="50%"
+                          labelLine={false}
+                          label={renderCustomizedLabel}
+                          outerRadius={190}
+                          fill="#8884d8"
+                          dataKey="value"
+                          className='text-[24px]'
+                        >
+                          {data.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                          ))}
+                        </Pie>
+                      </PieChart>
+                    </ResponsiveContainer> */}
                     <img src={chartImg} alt="Image" className='w-[90%]' />
-                  </div>
 
+                    <p className='text-[#000] text-[23px] absolute top-28 left-[256px]'>45%</p>
+                    <p className='text-[#000] text-[23px] absolute top-28 left-[105px]'>5%</p>
+                    <p className='text-[#000] text-[23px] absolute top-[180px] left-[60px]'>5%</p>
+                    <p className='text-[#000] text-[23px] absolute top-[320px] left-[180px]'>45%</p>
+                  </div>
 
                   {/* Gradient button */}
                   <div className='space-y-8'>
@@ -171,8 +174,8 @@ const Tokenomics = () => {
           </Container>
 
           {/* Shadow */}
-          <div className='2xl:w-60 2xl:h-[800px] absolute bottom-0 shadowBg'/>
-          <div className='2xl:w-60 2xl:h-[800px] absolute right-0 bottom-0 shadowBg'/>
+          <div className='2xl:w-60 2xl:h-[800px] absolute bottom-0 shadowBg' />
+          <div className='2xl:w-60 2xl:h-[800px] absolute right-0 bottom-0 shadowBg' />
         </div>
       </div>
     </div>
