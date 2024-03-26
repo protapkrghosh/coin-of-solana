@@ -12,22 +12,16 @@ body {
 .ecoborderleft {
   border-radius: 20px;
   background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
-  width: 101.092px;
-  height: 112px;
 }
 
 /* ecosystem right side */
 .ecoborderRight {
-  width: 261px;
-  height: 112px;
   border-radius: 20px;
   background: #736D31;
 }
 
 /* ecosystem right icon card */
 .ecoborderRightIcon {
-  min-width: 86px;
-  min-height: 86px;
   border-radius: 20px;
   background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
 }
