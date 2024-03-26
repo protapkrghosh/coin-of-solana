@@ -55,8 +55,8 @@ const Ecosystem = () => {
               <div className='relative'>
                 {/* right side bar card 4 */}
                 <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[440px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
                       <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
@@ -66,8 +66,8 @@ const Ecosystem = () => {
                 </div>
 
                 <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[320px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
                       <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
@@ -77,8 +77,8 @@ const Ecosystem = () => {
                 </div>
 
                 <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[200px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
                       <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
@@ -88,8 +88,8 @@ const Ecosystem = () => {
                 </div>
 
                 <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[80px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
                       <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
@@ -99,8 +99,8 @@ const Ecosystem = () => {
                 </div>
 
                 <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[-40px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
                       <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
