@@ -42,7 +42,7 @@ const Tokenomics = () => {
         <div className=''>
           <Container>
             <div className='relative'>
-              <div className='flex justify-center lg:pt-20 -mb-[420px] xl:-mb-[450px]'>
+              <div className='flex justify-center lg:pt-20 -mb-[320px] lg:-mb-[420px] xl:-mb-[450px]'>
                 <img src={forgeImg1} alt="Image" className='w-[300px] xl:w-[450px] mt-10 lg:mr-10 xl:mr-12' />
               </div>
 
@@ -50,7 +50,7 @@ const Tokenomics = () => {
                 <p className='text-[#CCC2C2] text-[18px] text-center font-normal 2xl:w-[87%] mx-auto pt-14'>Why EGOM ?  $EGOM is like the coolest meme coin ever, created by a bunch of friends who love jokes and funny stuff. It's not just about making money, it's about having fun and being part of a cool community. Having some $EGOM your life just makes everything better!</p>
 
                 {/* Tokenomics content */}
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-36 pb-36'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 pt-36 pb-36'>
                   {/* Token content */}
                   <div>
                     <h3 className='text-[#fff] text-[33px] xl:text-[45px] 2xl:text-[55px] font-semibold mb-8'>Tokenomics</h3>
@@ -103,11 +103,11 @@ const Tokenomics = () => {
                         </Pie>
                       </PieChart>
                     </ResponsiveContainer> */}
-                    <img src={chartImg} alt="Image" className='w-[90%]' />
+                    <img src={chartImg} alt="Image" className='w-[70%] lg:w-[90%] mx-auto lg:mx-0' />
 
-                    <p className='text-[#000] text-[23px] absolute top-[80px] 2xl:top-[112px] left-[200px] 2xl:left-[256px]'>45%</p>
+                    <p className='text-[#000] text-[23px] absolute top-[100px] lg:top-[80px] 2xl:top-[112px] left-[410px] lg:left-[200px] 2xl:left-[256px]'>45%</p>
 
-                    <p className='text-[#000] text-[23px] absolute top-[80px] 2xl:top-[112px] left-[80px] 2xl:left-[105px]'>5%</p>
+                    <p className='text-[#000] text-[23px] absolute top-[110px] lg:top-[80px] 2xl:top-[112px] left-[220px] lg:left-[80px] 2xl:left-[105px]'>5%</p>
 
                     <p className='text-[#000] text-[23px] absolute top-[145px] 2xl:top-[180px] left-[60px] 2xl:left-[60px]'>5%</p>
 
@@ -185,9 +185,9 @@ const Tokenomics = () => {
 
           {/* BackgroundImage */}
           <div className=''>
-            <div className='flex justify-between lg:-mt-28 xl:-mt-64'>
-              <img src={forgeImg4} alt="Image" className='w-[300px] xl:w-[450px]' />
-              <img src={forgeImg3} alt="Image" className='w-[300px] xl:w-[450px]' />
+            <div className='flex justify-between -mt-16 lg:-mt-28 xl:-mt-64'>
+              <img src={forgeImg4} alt="Image" className='w-[250px] lg:w-[300px] xl:w-[450px]' />
+              <img src={forgeImg3} alt="Image" className='w-[250px] lg:w-[300px] xl:w-[450px]' />
             </div>
           </div>
         </div>
