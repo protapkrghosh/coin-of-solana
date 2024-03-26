@@ -26,6 +26,19 @@ body {
   background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
 }
 
+/* Tokenomics */
+.forgeBgImgThree {
+  background-image: url(../src/assets/tokenomics/Designer3.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.forgeBgImgFour {
+  background-image: url(../src/assets/tokenomics/Designer4.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
 /* Footer scroll icon */
 .scroll-to-top {
   background-image: linear-gradient(90deg, #D1CB18, #E77962) !important;
