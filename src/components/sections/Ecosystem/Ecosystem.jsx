@@ -60,13 +60,13 @@ const Ecosystem = () => {
 
 
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[442px] xl:bottom-[345px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[442px] xl:bottom-[345px] lg:bottom-[235px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[60px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[60px] xl:h-[60px] lg:h-[50px]'>
                       <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
-                      <p className='text-[#FFF] xl:text-[20px] xl:leading-[32px]'>Community Spaces</p>
+                      <p className='text-[#FFF] xl:text-[20px] lg:text-[18px] xl:leading-[32px] lg:leading-[20px]'>Community Spaces</p>
                     </div>
                   </div>
                 </div>
