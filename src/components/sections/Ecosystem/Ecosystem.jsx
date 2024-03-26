@@ -27,7 +27,7 @@ const Ecosystem = () => {
 
               <div className='relative'>
                 {/* left side card 2 */}
-                <div className='xl:absolute lg:max-w-[101.092px] 2xl:bottom-[440px] xl:bottom-[330px] 2xl:left-[1px]'>
+                <div className='xl:absolute lg:max-w-[101.092px] 2xl:bottom-[440px] xl:bottom-[330px] xl:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
                   <div className='ecoborderleft flex justify-center items-center'>
                     <img className='xl:w-auto' src={ecoBgImgleftIcon1} alt="" />
