@@ -52,8 +52,8 @@ const Ecosystem = () => {
             </div>
 
 
-            {/* right side bar card  */}
-            <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[500px]'>
+            {/* right side bar card 1 */}
+            <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[494px]'>
               <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                 <div className='ecoborderRightIcon flex justify-center items-center'>
                   <img className='2xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
@@ -64,8 +64,44 @@ const Ecosystem = () => {
               </div>
             </div>
 
-            {/* right side bar card  */}
+            {/* right side bar card 2 */}
             <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[360px]'>
+              <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon2} alt="" />
+                </div>
+                <div>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Socials</p>
+                </div>
+              </div>
+            </div>
+
+            {/* right side bar card 3 */}
+            <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[228px]'>
+              <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon2} alt="" />
+                </div>
+                <div>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Socials</p>
+                </div>
+              </div>
+            </div>
+
+            {/* right side bar card 4 */}
+            <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[93px]'>
+              <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon2} alt="" />
+                </div>
+                <div>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Socials</p>
+                </div>
+              </div>
+            </div>
+
+            {/* right side bar card 5 */}
+            <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[-40px]'>
               <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                 <div className='ecoborderRightIcon flex justify-center items-center'>
                   <img className='2xl:w-auto' src={ecoBgImgrightIcon2} alt="" />
