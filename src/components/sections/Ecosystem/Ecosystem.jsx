@@ -6,6 +6,7 @@ import ecoBgImg from '@/assets/ecosystem/Group 1171275157.png';
 import ecoBgImgleftIcon1 from '@/assets/ecosystem/Group1171275166.png';
 import ecoBgImgleftIcon2 from '@/assets/ecosystem/Group1171275167.png';
 import ecoBgImgleftIcon3 from '@/assets/ecosystem/Group1171275165.png';
+import ecoBgImgrightIcon1 from '@/assets/ecosystem/Group.png';
 
 
 const Ecosystem = () => {
@@ -45,6 +46,22 @@ const Ecosystem = () => {
                 <img className='2xl:w-auto' src={ecoBgImgleftIcon3} alt="" />
               </div>
             </div>
+
+
+            {/* right side bar card  */}
+
+            <div className='2xl:absolute'>
+              <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                <div className='ecoborderRightIcon flex justify-center items-center'>
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                </div>
+                <div>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
+                </div>
+              </div>
+            </div>
+
+
 
           </div>
         </div>
