@@ -37,7 +37,7 @@ const Tokenomics = () => {
   // };
 
   return (
-    <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1'>
+    <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1' id='tokenomics'>
       <div className=''>
         <div className=''>
           <Container>
