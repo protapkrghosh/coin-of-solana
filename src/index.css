@@ -8,6 +8,52 @@ body {
   font-family: 'Silkscreen';
 }
 
+/* ecosystem left side */
+.ecoborderleft {
+  border-radius: 20px;
+  background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
+}
+
+/* ecosystem right side */
+.ecoborderRight {
+  border-radius: 20px;
+  background: #736D31;
+}
+
+/* ecosystem right icon card */
+.ecoborderRightIcon {
+  border-radius: 20px;
+  background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
+}
+
+/* Tokenomics */
+.forgeBgImgThree {
+  background-image: url(../src/assets/tokenomics/Designer3.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.forgeBgImgFour {
+  background-image: url(../src/assets/tokenomics/Designer4.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+/* Footer scroll icon */
+.scroll-to-top {
+  background-image: linear-gradient(90deg, #D1CB18, #E77962) !important;
+  position: absolute !important;
+  right: 0px !important;
+  bottom: -20px !important;
+}
+
+/* Footer shadow */
+.shadowBg {
+  background: #000000;
+  filter: blur(250px);
+  /* mix-blend-mode: lighten; */
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -76,6 +122,7 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
