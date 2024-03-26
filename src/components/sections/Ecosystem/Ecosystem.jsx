@@ -1,5 +1,8 @@
 import React from 'react';
 import Container from '../Container/Container';
+import ecoBgImgleft from '@/assets/ecosystem/Designerpre1.png';
+import ecoBgImgright from '@/assets/ecosystem/Designerpre2.png';
+
 
 const Ecosystem = () => {
   return (
