@@ -4,6 +4,7 @@ import ecoBgImgleft from '@/assets/ecosystem/Designerpre1.png';
 import ecoBgImgright from '@/assets/ecosystem/Designerpre2.png';
 import ecoBgImg from '@/assets/ecosystem/Group 1171275157.png';
 import ecoBgImgleftIcon1 from '@/assets/ecosystem/Group1171275166.png';
+import ecoBgImgleftIcon2 from '@/assets/ecosystem/Group1171275167.png';
 
 
 const Ecosystem = () => {
@@ -20,10 +21,19 @@ const Ecosystem = () => {
               <img className='2xl:mt-[162px]' src={ecoBgImg} alt="" />
             </div>
 
+            {/* left side card 1 */}
             <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:bottom-[490px] 2xl:left-7'>
               <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
               <div className='ecoborderleft flex justify-center items-center'>
                 <img className='2xl:w-auto' src={ecoBgImgleftIcon1} alt="" />
+              </div>
+            </div>
+
+            {/* left side card 2 */}
+            <div className='2xl:max-w-[101.092px] 2xl:absolute 2xl:bottom-56 2xl:left-7'>
+              <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
+              <div className='ecoborderleft flex justify-center items-center'>
+                <img className='2xl:w-auto' src={ecoBgImgleftIcon2} alt="" />
               </div>
             </div>
 
