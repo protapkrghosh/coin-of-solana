@@ -23,29 +23,32 @@ const Ecosystem = () => {
             <p className='text-[#FFF] text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
 
             <div>
-              <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] lg:w-[70%] mx-auto 2xl:ml-[97px] xl:ml-[97px] lg:ml-[97px]' src={ecoBgImg} alt="image" />
+              <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] lg:w-[70%] mx-auto 2xl:ml-[97px] xl:ml-[97px] lg:ml-[80px]' src={ecoBgImg} alt="image" />
 
               {/* left side section  */}
               <div className='relative'>
                 {/* left side card 1 */}
-                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[440px] xl:bottom-[330px] lg:bottom-[245px] lg:left-[1px]'>
+
+
+
+                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[-40px] xl:bottom-[-45px] lg:bottom-[250px] lg:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
-                  <div className='ecoborderleft xl:w-[101px] xl:h-[112px] flex justify-center items-center'>
-                    <img className='xl:w-auto' src={ecoBgImgleftIcon1} alt="" />
+                  <div className='ecoborderleft xl:w-[101px] lg:w-[80px] xl:h-[112px] lg:h-[80px] flex justify-center items-center'>
+                    <img className='xl:w-auto lg:w-[40px]' src={ecoBgImgleftIcon1} alt="" />
                   </div>
                 </div>
 
-                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[200px] xl:bottom-[140px] lg:bottom-[245px] lg:left-[1px]'>
+                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[-40px] xl:bottom-[-45px] lg:bottom-[105px] lg:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
-                  <div className='ecoborderleft xl:w-[101px] xl:h-[112px] flex justify-center items-center'>
-                    <img className='xl:w-auto' src={ecoBgImgleftIcon2} alt="" />
+                  <div className='ecoborderleft xl:w-[101px] lg:w-[80px] xl:h-[112px] lg:h-[80px] flex justify-center items-center'>
+                    <img className='xl:w-auto lg:w-[40px]' src={ecoBgImgleftIcon2} alt="" />
                   </div>
                 </div>
 
-                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[-40px] xl:bottom-[-45px] lg:bottom-[245px] lg:left-[1px]'>
+                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[-40px] xl:bottom-[-45px] lg:bottom-[-35px] lg:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
-                  <div className='ecoborderleft xl:w-[101px] xl:h-[112px] flex justify-center items-center'>
-                    <img className='xl:w-auto' src={ecoBgImgleftIcon3} alt="" />
+                  <div className='ecoborderleft xl:w-[101px] lg:w-[80px] xl:h-[112px] lg:h-[80px] flex justify-center items-center'>
+                    <img className='xl:w-auto lg:w-[40px]' src={ecoBgImgleftIcon3} alt="" />
                   </div>
                 </div>
               </div>
