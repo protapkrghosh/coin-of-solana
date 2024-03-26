@@ -1,11 +1,15 @@
 import Container from '../Container/Container';
+import logo from "@/assets/banner/Group49.png"
 import forgeImg1 from '@/assets/tokenomics/Designer1.png';
 import forgeImg2 from '@/assets/tokenomics/Designer2.png';
 import forgeImg3 from '@/assets/tokenomics/Designer3.png';
 import forgeImg4 from '@/assets/tokenomics/Designer4.png';
 import forgeImg5 from '@/assets/tokenomics/Designer5.png';
 import chartImg from '@/assets/tokenomics/Group81.png';
+import { IoIosArrowUp } from "react-icons/io";
 import React, { PureComponent } from 'react';
+import { Link } from 'react-scroll';
+import ScrollToTop from 'react-scroll-to-top';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
 const Tokenomics = () => {
@@ -32,7 +36,7 @@ const Tokenomics = () => {
   // };
 
   return (
-    <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 pb-28'>
+    <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 pb-10 2xl:pb-16'>
       <Container>
         <div>
 
@@ -129,6 +133,36 @@ const Tokenomics = () => {
               <div className="bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#e7e01a] hover:to-[#fa8168] rounded-[17px] w-fit">
                 <button className="text-[#FFF] 2xl:text-[20px] px-6 2xl:px-20 py-[15px] rounded-[30px]">Buy Now</button>
               </div>
+            </div>
+          </div>
+
+          {/* Footer section */}
+          <div className='md:flex justify-between items-center pt-16'>
+            <Link to="home" smooth={true} offset={-30} duration={600} className=" text-white text-[24px] flex items-center cursor-pointer">
+              <img src={logo} alt="Logo" className="w-auto mr-3 ml-5 md:ml-0" />
+              <p>$EGOM</p>
+            </Link>
+
+            <p className='text-white text-[18px] font-normal 2xl:-ml-36'>Powered By Solana</p>
+
+            {/* Scroll Up */}
+            <div className='relative'>
+              <ScrollToTop
+                className="scrollIcon"
+                smooth={true} top="1800"
+                style={{
+                  // backgroundColor: "#20c99685",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  borderRadius: "50%",
+                  padding: "10px",
+                }}
+              />
+
+              {/* <div className='bg-gradient-to-r from-[#D1CB18] to-[#E77962] p-3 rounded-full'>
+                <IoIosArrowUp className='text-white text-[23px]'/>
+              </div> */}
             </div>
           </div>
         </div>
