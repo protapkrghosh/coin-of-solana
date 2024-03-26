@@ -54,10 +54,10 @@ const Ecosystem = () => {
               {/* right side section  */}
               <div className='relative'>
                 {/* right side bar card 4 */}
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[440px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
-                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] 2xl:bottom-[-40px] xl:bottom-[342px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] xl:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] xl:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px]' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
                       <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
@@ -65,10 +65,10 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[320px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
-                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[-40px] xl:bottom-[248px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] xl:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] xl:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px]' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
                       <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
@@ -76,10 +76,10 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[200px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
-                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[-40px] xl:bottom-[155px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] xl:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] xl:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px]' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
                       <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
@@ -87,10 +87,10 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[80px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
-                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[-40px] xl:bottom-[62px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] xl:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] xl:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px]' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
                       <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
@@ -98,10 +98,10 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[-40px] xl:bottom-[330px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px]'>
-                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[-40px] xl:bottom-[-30px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] xl:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] xl:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px]' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
                       <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
