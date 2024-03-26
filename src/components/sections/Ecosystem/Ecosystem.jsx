@@ -3,6 +3,7 @@ import Container from '../Container/Container';
 import ecoBgImgleft from '@/assets/ecosystem/Designerpre1.png';
 import ecoBgImgright from '@/assets/ecosystem/Designerpre2.png';
 import ecoBgImg from '@/assets/ecosystem/Group 1171275157.png';
+import cricleIcon from '@/assets/ecosystem/Group 1171275.png';
 import ecoBgImgleftIcon1 from '@/assets/ecosystem/Group1171275166.png';
 import ecoBgImgleftIcon2 from '@/assets/ecosystem/Group1171275167.png';
 import ecoBgImgleftIcon3 from '@/assets/ecosystem/Group1171275165.png';
@@ -23,6 +24,7 @@ const Ecosystem = () => {
           </div>
 
           <div className='2xl:absolute 2xl:left-[90px]'>
+            <img className='2xl:w-auto xl:absolute 2xl:top-[370px] 2xl:left-[505px]' src={cricleIcon} alt="" />
             <div className='flex justify-evenly'>
               <img className='2xl:w-auto 2xl:mt-[162px]' src={ecoBgImg} alt="" />
             </div>
