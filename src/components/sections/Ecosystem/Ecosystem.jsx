@@ -80,10 +80,10 @@ const Ecosystem = () => {
             <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[228px]'>
               <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                 <div className='ecoborderRightIcon flex justify-center items-center'>
-                  <img className='2xl:w-auto' src={ecoBgImgrightIcon2} alt="" />
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon3} alt="" />
                 </div>
                 <div>
-                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Socials</p>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>DeFi</p>
                 </div>
               </div>
             </div>
@@ -92,10 +92,10 @@ const Ecosystem = () => {
             <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[93px]'>
               <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                 <div className='ecoborderRightIcon flex justify-center items-center'>
-                  <img className='2xl:w-auto' src={ecoBgImgrightIcon2} alt="" />
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon4} alt="" />
                 </div>
                 <div>
-                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Socials</p>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>NFT</p>
                 </div>
               </div>
             </div>
@@ -104,10 +104,10 @@ const Ecosystem = () => {
             <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[-40px]'>
               <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                 <div className='ecoborderRightIcon flex justify-center items-center'>
-                  <img className='2xl:w-auto' src={ecoBgImgrightIcon2} alt="" />
+                  <img className='2xl:w-auto' src={ecoBgImgrightIcon5} alt="" />
                 </div>
                 <div>
-                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Socials</p>
+                  <p className='text-[#FFF] text-[20px] leading-[32px]'>Payments</p>
                 </div>
               </div>
             </div>
