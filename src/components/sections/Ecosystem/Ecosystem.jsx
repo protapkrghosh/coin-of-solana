@@ -35,14 +35,14 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[200px] xl:bottom-[330px] lg:bottom-[245px] lg:left-[1px]'>
+                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[200px] xl:bottom-[140px] lg:bottom-[245px] lg:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
                   <div className='ecoborderleft xl:w-[101px] xl:h-[112px] flex justify-center items-center'>
                     <img className='xl:w-auto' src={ecoBgImgleftIcon2} alt="" />
                   </div>
                 </div>
 
-                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[-40px] xl:bottom-[330px] lg:bottom-[245px] lg:left-[1px]'>
+                <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[-40px] xl:bottom-[-45px] lg:bottom-[245px] lg:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
                   <div className='ecoborderleft xl:w-[101px] xl:h-[112px] flex justify-center items-center'>
                     <img className='xl:w-auto' src={ecoBgImgleftIcon3} alt="" />
