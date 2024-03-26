@@ -38,8 +38,8 @@ const Tokenomics = () => {
 
   return (
     <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 relative'>
-      <div style={{ backgroundImage: `url(${forgeImg4})` }} className='bg-no-repeat bg-left-bottom'>
-        <div style={{ backgroundImage: `url(${forgeImg3})` }} className='bg-no-repeat bg-right-bottom'>
+      <div className='forgeBgImgFour'>
+        <div className='forgeBgImgThree'>
           <Container>
             <div>
               <div className='flex justify-center -mb-[450px]'>
