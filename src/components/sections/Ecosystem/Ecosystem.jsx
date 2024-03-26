@@ -121,16 +121,3 @@ const Ecosystem = () => {
 };
 
 export default Ecosystem;
-
-
-
-
-
-
-
-<div className='max-w-[101.092px]'>
-  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
-  <div className='ecoborderleft flex justify-center items-center'>
-    <img className='' src={ecoBgImgleftIcon1} alt="" />
-  </div>
-</div>
