@@ -57,10 +57,54 @@ const Ecosystem = () => {
                 <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[440px] xl:bottom-[330px]'>
                   <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                     <div className='ecoborderRightIcon flex justify-center items-center'>
-                      <img className='xl:w-auto' src={ecoBgImgrightIcon4} alt="" />
+                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
-                      <p className='text-[#FFF] text-[20px] leading-[32px]'>NFT</p>
+                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[320px] xl:bottom-[330px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[200px] xl:bottom-[330px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[80px] xl:bottom-[330px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[-40px] xl:bottom-[330px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center'>
+                      <img className='xl:w-auto' src={ecoBgImgrightIcon1} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
                     </div>
                   </div>
                 </div>
