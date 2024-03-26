@@ -18,7 +18,7 @@ const Ecosystem = () => {
             <p className='text-[#FFF] text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
           </div>
 
-          <div>
+          <div className='2xl:absolute 2xl:left-[55px]'>
             <div className='flex justify-evenly'>
               <img className='2xl:w-auto 2xl:mt-[162px]' src={ecoBgImg} alt="" />
             </div>
@@ -60,7 +60,6 @@ const Ecosystem = () => {
                 </div>
               </div>
             </div>
-
 
 
           </div>
