@@ -19,18 +19,18 @@ const Ecosystem = () => {
     <>
       <div className='bg-gradient-to-r from-[#191610] to-[#191610]'>
         <Container>
-          <div>
+          <div className='border'>
             <p className='text-[#FFF] text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
 
             <div>
-              <img className='mt-[162px] 2xl:w-[80%] mx-auto' src={ecoBgImg} alt="image" />
+              <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] mx-auto 2xl:ml-[97px] xl:ml-[97px]' src={ecoBgImg} alt="image" />
 
               <div className='relative'>
                 {/* left side card 2 */}
-                <div className='2xl:max-w-[101.092px] 2xl:bottom-56 2xl:left-[-95px]'>
+                <div className='xl:absolute 2xl:max-w-[101.092px] 2xl:bottom-56 xl:bottom-[355px] 2xl:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
                   <div className='ecoborderleft flex justify-center items-center'>
-                    <img className='2xl:w-auto' src={ecoBgImgleftIcon2} alt="" />
+                    <img className='xl:w-auto' src={ecoBgImgleftIcon2} alt="" />
                   </div>
                 </div>
               </div>
@@ -38,10 +38,10 @@ const Ecosystem = () => {
 
               <div className='relative'>
                 {/* right side bar card 4 */}
-                <div className='2xl:absolute 2xl:right-[-250px] 2xl:bottom-[93px]'>
+                <div className='xl:absolute 2xl:right-[1px] xl:right-[1px] 2xl:bottom-[93px] xl:bottom-[93px]'>
                   <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                     <div className='ecoborderRightIcon flex justify-center items-center'>
-                      <img className='2xl:w-auto' src={ecoBgImgrightIcon4} alt="" />
+                      <img className='xl:w-auto' src={ecoBgImgrightIcon4} alt="" />
                     </div>
                     <div>
                       <p className='text-[#FFF] text-[20px] leading-[32px]'>NFT</p>
