@@ -83,7 +83,7 @@ const Tokenomics = () => {
                   </div>
 
                   {/* chart */}
-                  <div className='relative'>
+                  <div className='relative md:my-16 lg:my-0'>
                     {/* <ResponsiveContainer width="100%" height="100%">
                       <PieChart width={600} height={600}>
                         <Pie
@@ -107,11 +107,11 @@ const Tokenomics = () => {
 
                     <p className='text-[#000] text-[23px] absolute top-[100px] lg:top-[80px] 2xl:top-[112px] left-[410px] lg:left-[200px] 2xl:left-[256px]'>45%</p>
 
-                    <p className='text-[#000] text-[23px] absolute top-[110px] lg:top-[80px] 2xl:top-[112px] left-[220px] lg:left-[80px] 2xl:left-[105px]'>5%</p>
+                    <p className='text-[#000] text-[23px] absolute top-[120px] lg:top-[80px] 2xl:top-[112px] left-[220px] lg:left-[80px] 2xl:left-[105px]'>5%</p>
 
-                    <p className='text-[#000] text-[23px] absolute top-[145px] 2xl:top-[180px] left-[60px] 2xl:left-[60px]'>5%</p>
+                    <p className='text-[#000] text-[23px] absolute top-[205px] lg:top-[145px] 2xl:top-[180px] left-[180px] lg:left-[60px] 2xl:left-[60px]'>5%</p>
 
-                    <p className='text-[#000] text-[23px] absolute top-[250px] 2xl:top-[320px] left-[140px] 2xl:left-[180px]'>45%</p>
+                    <p className='text-[#000] text-[23px] absolute top-[360px] lg:top-[250px] 2xl:top-[320px] left-[300px] lg:left-[140px] 2xl:left-[180px]'>45%</p>
                   </div>
 
                   {/* Gradient button */}
