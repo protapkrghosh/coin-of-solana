@@ -59,60 +59,65 @@ const Ecosystem = () => {
                 {/* right side bar card 4 */}
 
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[-40px] xl:bottom-[345px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
-                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon1} alt="" />
+
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[442px] xl:bottom-[155px] lg:bottom-[-30px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon3} alt="" />
                     </div>
                     <div>
-                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Community Spaces</p>
+                      <p className='text-[#FFF] xl:text-[20px] xl:leading-[32px]'>DeFi</p>
                     </div>
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[-40px] xl:bottom-[250px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
-                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon2} alt="" />
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[320px] xl:bottom-[155px] lg:bottom-[-30px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon3} alt="" />
                     </div>
                     <div>
-                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Socials</p>
+                      <p className='text-[#FFF] xl:text-[20px] xl:leading-[32px]'>DeFi</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[200px] xl:bottom-[155px] lg:bottom-[-30px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon3} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] xl:text-[20px] xl:leading-[32px]'>DeFi</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[80px] xl:bottom-[155px] lg:bottom-[-30px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon3} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] xl:text-[20px] xl:leading-[32px]'>DeFi</p>
                     </div>
                   </div>
                 </div>
 
                 <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[-40px] xl:bottom-[155px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
+                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[105px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
+                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[90px] 2xl:h-[70px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
                       <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon3} alt="" />
                     </div>
                     <div>
-                      <p className='text-[#FFF] text-[20px] leading-[32px]'>DeFi</p>
+                      <p className='text-[#FFF] xl:text-[20px] xl:leading-[32px]'>DeFi</p>
                     </div>
                   </div>
                 </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[-40px] xl:bottom-[61px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
-                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon4} alt="" />
-                    </div>
-                    <div>
-                      <p className='text-[#FFF] text-[20px] leading-[32px]'>NFT</p>
-                    </div>
-                  </div>
-                </div>
 
-                <div className='lg:absolute 2xl:right-[7px] xl:right-[2px] lg:right-[1px] 2xl:bottom-[-40px] xl:bottom-[-32px] lg:bottom-[-30px]'>
-                  <div className='ecoborderRight flex items-center gap-4 pl-[12px] 2xl:w-[262px] 2xl:h-[110px] xl:w-[258px] lg:w-[258px] xl:h-[80px] lg:h-[80px]'>
-                    <div className='ecoborderRightIcon flex justify-center items-center 2xl:w-[105px] 2xl:h-[86px] xl:w-[85px] lg:w-[85px] xl:h-[60px] lg:h-[60px]'>
-                      <img className='2xl:w-auto xl:w-[35px] lg:w-[30px]' src={ecoBgImgrightIcon5} alt="" />
-                    </div>
-                    <div>
-                      <p className='text-[#FFF] text-[20px] leading-[32px]'>Payments</p>
-                    </div>
-                  </div>
-                </div>
+
+
 
               </div>
             </div>
