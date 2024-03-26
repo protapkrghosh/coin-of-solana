@@ -27,8 +27,8 @@ body {
 
 /* ecosystem right icon card */
 .ecoborderRightIcon {
-  width: 106px;
-  height: 84px;
+  min-width: 86px;
+  min-height: 86px;
   border-radius: 20px;
   background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
 }
