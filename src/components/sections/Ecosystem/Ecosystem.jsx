@@ -23,11 +23,11 @@ const Ecosystem = () => {
             <p className='text-[#FFF] text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
 
             <div>
-              <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] mx-auto 2xl:ml-[97px] xl:ml-[97px]' src={ecoBgImg} alt="image" />
+              <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] lg:w-[70%] mx-auto 2xl:ml-[97px] xl:ml-[97px] lg:ml-[97px]' src={ecoBgImg} alt="image" />
 
               <div className='relative'>
                 {/* left side card 2 */}
-                <div className='xl:absolute 2xl:max-w-[101.092px] 2xl:bottom-[440px] xl:bottom-[330px] 2xl:left-[1px]'>
+                <div className='xl:absolute lg:max-w-[101.092px] 2xl:bottom-[440px] xl:bottom-[330px] 2xl:left-[1px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
                   <div className='ecoborderleft flex justify-center items-center'>
                     <img className='xl:w-auto' src={ecoBgImgleftIcon1} alt="" />
