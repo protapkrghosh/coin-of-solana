@@ -6,6 +6,7 @@ import forgeImg3 from '@/assets/tokenomics/Designer3.png';
 import forgeImg4 from '@/assets/tokenomics/Designer4.png';
 import forgeImg5 from '@/assets/tokenomics/Designer5.png';
 import chartImg from '@/assets/tokenomics/Group81.png';
+import arrowIcon from '@/assets/tokenomics/arroup.svg';
 import { IoIosArrowUp } from "react-icons/io";
 import React, { PureComponent } from 'react';
 import { Link } from 'react-scroll';
@@ -149,7 +150,8 @@ const Tokenomics = () => {
             <div className='relative'>
               <ScrollToTop
                 className="scrollIcon"
-                smooth={true} top="1800"
+                smooth={true}
+                top="1800"
                 style={{
                   // backgroundColor: "#20c99685",
                   display: "flex",
@@ -158,11 +160,8 @@ const Tokenomics = () => {
                   borderRadius: "50%",
                   padding: "10px",
                 }}
+                component={<p style={{ color: "white" }}><img src={arrowIcon} alt="Logo" className="w-auto mr-3 ml-5 md:ml-0" /></p>}
               />
-
-              {/* <div className='bg-gradient-to-r from-[#D1CB18] to-[#E77962] p-3 rounded-full'>
-                <IoIosArrowUp className='text-white text-[23px]'/>
-              </div> */}
             </div>
           </div>
         </div>

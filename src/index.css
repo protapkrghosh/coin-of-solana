@@ -34,10 +34,9 @@ body {
 
 /* Footer scroll icon */
 .scroll-to-top {
-  color: white !important;
-  background-image: linear-gradient(90deg,#D1CB18, #E77962)!important;
+  background-image: linear-gradient(90deg, #D1CB18, #E77962) !important;
   position: absolute !important;
-  right: 0px !important;	
+  right: 0px !important;
   bottom: -20px !important;
 }
 
