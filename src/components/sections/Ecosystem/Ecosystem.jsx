@@ -27,10 +27,10 @@ const Ecosystem = () => {
 
               <div className='relative'>
                 {/* left side card 2 */}
-                <div className='xl:absolute 2xl:max-w-[101.092px] 2xl:bottom-56 xl:bottom-[355px] 2xl:left-[1px]'>
-                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
+                <div className='xl:absolute 2xl:max-w-[101.092px] 2xl:bottom-[440px] xl:bottom-[330px] 2xl:left-[1px]'>
+                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
                   <div className='ecoborderleft flex justify-center items-center'>
-                    <img className='xl:w-auto' src={ecoBgImgleftIcon2} alt="" />
+                    <img className='xl:w-auto' src={ecoBgImgleftIcon1} alt="" />
                   </div>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const Ecosystem = () => {
 
               <div className='relative'>
                 {/* right side bar card 4 */}
-                <div className='xl:absolute 2xl:right-[1px] xl:right-[1px] 2xl:bottom-[93px] xl:bottom-[93px]'>
+                <div className='xl:absolute 2xl:right-[7px] xl:right-[1px] 2xl:bottom-[440px] xl:bottom-[330px]'>
                   <div className='ecoborderRight flex items-center gap-4 pl-[12px]'>
                     <div className='ecoborderRightIcon flex justify-center items-center'>
                       <img className='xl:w-auto' src={ecoBgImgrightIcon4} alt="" />
