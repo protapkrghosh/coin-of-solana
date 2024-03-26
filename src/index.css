@@ -9,6 +9,13 @@ body {
   background: linear-gradient(90deg, #0E0E0E 0%, #0D0D0D 100%);
 }
 
+.ecoborderleft {
+  border-radius: 20px;
+  background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
+  width: 101.092px;
+  height: 112px;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
