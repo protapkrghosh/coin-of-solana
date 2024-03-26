@@ -19,7 +19,7 @@ const Ecosystem = () => {
 
           <div>
             <div className='flex justify-evenly'>
-              <img className='2xl:mt-[162px]' src={ecoBgImg} alt="" />
+              <img className='2xl:w-auto 2xl:mt-[162px]' src={ecoBgImg} alt="" />
             </div>
 
             {/* left side card 1 */}
