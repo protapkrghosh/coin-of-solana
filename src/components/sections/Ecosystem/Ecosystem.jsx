@@ -136,21 +136,21 @@ const Ecosystem = () => {
 
 
                 {/* left side card 1 */}
-                <div className='absolute md:bottom-[-438px] md:left-[575px]'>
+                <div className='absolute md:bottom-[-450px] md:left-[575px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
                   <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
                     <img className='w-[70%]' src={ecoBgImgleftIcon1} alt="" />
                   </div>
                 </div>
 
-                <div className='absolute md:bottom-[-438px] md:left-[320px]'>
+                <div className='absolute md:bottom-[-450px] md:left-[320px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
                   <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
                     <img className='w-[70%]' src={ecoBgImgleftIcon2} alt="" />
                   </div>
                 </div>
 
-                <div className='absolute md:bottom-[-438px] md:left-[75px]'>
+                <div className='absolute md:bottom-[-450px] md:left-[75px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
                   <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
                     <img className='w-[70%]' src={ecoBgImgleftIcon3} alt="" />
@@ -224,25 +224,3 @@ const Ecosystem = () => {
 };
 
 export default Ecosystem;
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <div className='left-[1px] bottom-[170px]'>
-<div className='ecoborderRightSmall px-[9px] py-[15px] w-[58px] h-[85px] overflow-hidden'>
-  <div className='ecoborderRightIconSmall flex justify-center items-center w-[60px]h-[50px]'>
-    <img className='w-[30px]' src={ecoBgImgrightIcon2} alt="" />
-  </div>
-  <div>
-    <p className='text-[#FFF] text-[14px] leading-[32px]'>Socials</p>
-  </div>
-</div>
-</div> */}
