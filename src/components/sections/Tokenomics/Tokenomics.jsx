@@ -154,7 +154,7 @@ const Tokenomics = () => {
                     <p className='hidden md:block'>$EGOM</p>
                   </Link>
 
-                  <p className='text-white text-[18px] font-normal lg:-ml-36 xl:-ml-32 2xl:-ml-36'>Powered By Solana</p>
+                  <p className='text-white text-[17px] md:text-[18px] font-normal lg:-ml-36 xl:-ml-32 2xl:-ml-36'>Powered By Solana</p>
 
                   {/* Scroll Up */}
                   <div className='relative hidden md:block'>
@@ -186,8 +186,8 @@ const Tokenomics = () => {
           {/* BackgroundImage */}
           <div className=''>
             <div className='flex justify-between md:-mt-16 lg:-mt-28 xl:-mt-64'>
-              <img src={forgeImg4} alt="Image" className='w-[150px] md:w-[250px] lg:w-[300px] xl:w-[450px]' />
-              <img src={forgeImg3} alt="Image" className='w-[150px] md:w-[250px] lg:w-[300px] xl:w-[450px]' />
+              <img src={forgeImg4} alt="Image" className='w-[151px] md:w-[250px] lg:w-[300px] xl:w-[450px]' />
+              <img src={forgeImg3} alt="Image" className='w-[151px] md:w-[250px] lg:w-[300px] xl:w-[450px]' />
             </div>
           </div>
         </div>
