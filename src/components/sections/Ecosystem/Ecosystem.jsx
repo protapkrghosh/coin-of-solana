@@ -21,7 +21,7 @@ const Ecosystem = () => {
       <div className='bg-gradient-to-r from-[#191610] to-[#191610]' id='ecosystem'>
         <Container>
           <div className='pb-[50px]'>
-            <p className='text-[#FFF] text-[66px] leading-[79.2px] text-center'>ECOSYSTEM</p>
+            <p className='text-[#FFF] lg:text-[66px] md:text-[60px] text-[48px] lg:leading-[79.2px] md:leading-[79.2px] leading-[79.2px] text-center'>ECOSYSTEM</p>
 
             <div>
               <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] lg:w-[63%] mx-auto 2xl:ml-[97px] xl:ml-[97px] lg:ml-[80px]' src={ecoBgImg} alt="image" />
