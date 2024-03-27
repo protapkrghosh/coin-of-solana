@@ -130,8 +130,8 @@ const Ecosystem = () => {
 
               {/*------------------ small device section ------------------ */}
               <div className='block lg:hidden'>
-                <div className='md:mt-[380px] md:mb-[300px] md:ml-[-100px]'>
-                  <div className='md:w-[900px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
+                <div className='md:mt-[410px] md:mb-[380px] md:ml-[-150px]'>
+                  <div className='md:w-[1000px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
                 </div>
               </div>
 
@@ -145,7 +145,7 @@ const Ecosystem = () => {
 
 
               {/* right side  */}
-              <div className='left-[1px] bottom-[170px]'>
+              <div className='absolute md:left-[118px] md:bottom-[-1570px]'>
                 <div className='ecoborderRightSmall px-[9px] py-[15px] w-[99px] h-[162px] rounded-[16px]'>
                   <div className='ecoborderRightIconSmall flex justify-center items-center w-[80px] h-[80px] rounded-[16px]'>
                     <img className='w-[40px]' src={ecoBgImgrightIcon2} alt="" />
