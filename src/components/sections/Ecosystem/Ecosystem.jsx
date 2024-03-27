@@ -146,12 +146,12 @@ const Ecosystem = () => {
 
               {/* right side  */}
               <div className='left-[1px] bottom-[170px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[58px] h-[85px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[60px] h-[50px]'>
-                    <img className='w-[30px]' src={ecoBgImgrightIcon2} alt="" />
+                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[99px] h-[162px] rounded-[16px]'>
+                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[80px] h-[80px] rounded-[16px]'>
+                    <img className='w-[40px]' src={ecoBgImgrightIcon2} alt="" />
                   </div>
                   <div>
-                    <p className='text-[#FFF] text-[14px] leading-[32px]'>Socials</p>
+                    <p className='text-[#FFF] text-center text-[14px] leading-[32px] mt-[14px]'>Socials</p>
                   </div>
                 </div>
               </div>
