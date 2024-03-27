@@ -130,40 +130,7 @@ const Ecosystem = () => {
 
               {/*------------------ small device section ------------------ */}
               <div className='block lg:hidden'>
-                <div className='mt-[320px] mb-[270px]'>
-                  <img className='rotate-90 mx-auto' src={ecoBgImg} alt="image" />
 
-                  {/* left side section */}
-                  <div className='relative'>
-
-                    {/* left side card 1 */}
-                    <div className='absolute md:bottom-[502px] md:left-[460px]'>
-                      <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
-                      <div className='ecoborderleft md:h-[80px] md:w-[80px] flex justify-center items-center'>
-                        <img className='w-[75%]' src={ecoBgImgleftIcon1} alt="" />
-                      </div>
-                    </div>
-
-                  </div>
-
-
-                  {/* right side section  */}
-                  <div className='relative'>
-
-                    {/* right side bar card 4 */}
-                    <div className='left-[1px] bottom-[170px]'>
-                      <div className='ecoborderRightSmall px-[9px] py-[15px] w-[58px] h-[85px] overflow-hidden'>
-                        <div className='ecoborderRightIconSmall flex justify-center items-center w-[60px]h-[50px]'>
-                          <img className='w-[30px]' src={ecoBgImgrightIcon2} alt="" />
-                        </div>
-                        <div>
-                          <p className='text-[#FFF] text-[14px] leading-[32px]'>Socials</p>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
               </div>
             </div>
 
