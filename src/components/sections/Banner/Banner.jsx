@@ -19,19 +19,19 @@ const Banner = () => {
                 <p className='text-[#CBC2C2] text-[15px] lg:text-[16px] xl:text-[18px] font-normal mt-5 xl:mt-8 mb-8 xl:mb-14'>The new token PERRY v2 is here to make memecoins great again. The most memeable memecoin in existence. Tje PEPE have had their day, it’s time for PERRY to take reign!</p>
 
                 <div className='w-fit flex gap-x-5 xl:gap-x-8'>
-                  <a href="" className='w-[70px] h-[70px]'>
+                  <a href="https://twitter.com/EndGameOfMeme" target="_blank" className='w-[70px] h-[70px]'>
                     <div className='p-4 xl:p-5 bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#beb915] hover:to-[#cc6a56] rounded-full w-fit'>
                       <FaXTwitter className='text-[30px] text-white' />
                     </div>
                   </a>
 
-                  <a href="" className='w-[70px] h-[70px]'>
+                  <a href="https://t.me/endgameofmeme" target="_blank" className='w-[70px] h-[70px]'>
                     <div className='p-4 xl:p-5 bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#beb915] hover:to-[#cc6a56] rounded-full w-fit'>
                       <FaTelegramPlane className='text-[30px] text-white' />
                     </div>
                   </a>
 
-                  <a href="" className='w-[70px] h-[70px]'>
+                  <a href="https://discord.com/invite/FrWew4rD" target="_blank" className='w-[70px] h-[70px]'>
                     <div className='p-4 xl:p-5 bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#beb915] hover:to-[#cc6a56] rounded-full w-fit'>
                       <FaDiscord className='text-[30px] text-white' />
                     </div>
