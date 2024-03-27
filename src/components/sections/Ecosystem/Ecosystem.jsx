@@ -135,6 +135,14 @@ const Ecosystem = () => {
                 </div>
               </div>
 
+              {/* left side card 1 */}
+              <div className='absolute md:bottom-[502px] md:left-[460px]'>
+                <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
+                <div className='ecoborderleft md:h-[80px] md:w-[80px] flex justify-center items-center'>
+                  <img className='w-[75%]' src={ecoBgImgleftIcon1} alt="" />
+                </div>
+              </div>
+
             </div>
 
           </div>
@@ -155,24 +163,13 @@ export default Ecosystem;
 
 
 
-
-{/* <div className='block lg:hidden'>
-                <div className='md:mt-[300px] w-800px md:mb-[300px] m-80'>
-                  <div className='w-[800px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
-                </div>
-              </div> */}
-
-
-
-
-
-//   {/* left side card 1 */}
-//   <div className='absolute md:bottom-[502px] md:left-[460px]'>
-//   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
-//   <div className='ecoborderleft md:h-[80px] md:w-[80px] flex justify-center items-center'>
-//     <img className='w-[75%]' src={ecoBgImgleftIcon1} alt="" />
-//   </div>
-// </div>
+{/* left side card 1 */ }
+<div className='absolute md:bottom-[502px] md:left-[460px]'>
+  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
+  <div className='ecoborderleft md:h-[80px] md:w-[80px] flex justify-center items-center'>
+    <img className='w-[75%]' src={ecoBgImgleftIcon1} alt="" />
+  </div>
+</div>
 
 
 
