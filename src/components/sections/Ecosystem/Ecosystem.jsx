@@ -129,9 +129,10 @@ const Ecosystem = () => {
               </div>
 
               {/*------------------ small device section ------------------ */}
-              <div className='block lg:hidden'>
+              <div>
 
               </div>
+
             </div>
 
           </div>
@@ -147,6 +148,17 @@ export default Ecosystem;
 
 
 
+
+
+
+
+
+
+{/* <div className='block lg:hidden'>
+                <div className='md:mt-[300px] w-800px md:mb-[300px] m-80'>
+                  <div className='w-[800px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
+                </div>
+              </div> */}
 
 
 
