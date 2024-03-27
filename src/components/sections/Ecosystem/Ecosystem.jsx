@@ -156,13 +156,46 @@ const Ecosystem = () => {
                 </div>
               </div>
 
-              <div className='absolute md:left-[77px] md:bottom-[-1673px]'>
+              <div className='absolute md:left-[199px] md:bottom-[-1673px]'>
                 <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[162px] rounded-[20px]'>
                   <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
-                    <img className='w-[40px]' src={ecoBgImgrightIcon5} alt="" />
+                    <img className='w-[40px]' src={ecoBgImgrightIcon4} alt="" />
                   </div>
                   <div>
-                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Payments</p>
+                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>NFT</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className='absolute md:left-[323px] md:bottom-[-1673px]'>
+                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[162px] rounded-[20px]'>
+                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                    <img className='w-[40px]' src={ecoBgImgrightIcon3} alt="" />
+                  </div>
+                  <div>
+                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>DeFi</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className='absolute md:left-[445px] md:bottom-[-1673px]'>
+                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[162px] rounded-[20px]'>
+                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                    <img className='w-[40px]' src={ecoBgImgrightIcon2} alt="" />
+                  </div>
+                  <div>
+                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Socials</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className='absolute md:left-[572px] md:bottom-[-1673px]'>
+                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[162px] rounded-[20px]'>
+                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                    <img className='w-[40px]' src={ecoBgImgrightIcon1} alt="" />
+                  </div>
+                  <div>
+                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Community Spaces</p>
                   </div>
                 </div>
               </div>
