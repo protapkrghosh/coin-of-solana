@@ -130,13 +130,13 @@ const Ecosystem = () => {
 
               {/*------------------ small device section ------------------ */}
               <div className='block lg:hidden'>
-                <div className='md:mt-[410px] md:mb-[380px] md:ml-[-150px]'>
-                  <div className='md:w-[1000px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
+                <div className='md:mt-[440px] md:mb-[400px] md:ml-[-220px]'>
+                  <div className='md:w-[1100px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
                 </div>
               </div>
 
               {/* left side card 1 */}
-              <div className='absolute md:bottom-[-415px] md:left-[553px]'>
+              <div className='absolute md:bottom-[-423px] md:left-[575px]'>
                 <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
                 <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
                   <img className='w-[70%]' src={ecoBgImgleftIcon1} alt="" />
@@ -146,12 +146,12 @@ const Ecosystem = () => {
 
               {/* right side  */}
               <div className='absolute md:left-[118px] md:bottom-[-1570px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[99px] h-[162px] rounded-[16px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[80px] h-[80px] rounded-[16px]'>
+                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[88px] h-[162px] rounded-[16px]'>
+                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[70px] h-[70px] rounded-[16px]'>
                     <img className='w-[40px]' src={ecoBgImgrightIcon2} alt="" />
                   </div>
                   <div>
-                    <p className='text-[#FFF] text-center text-[14px] leading-[32px] mt-[14px]'>Socials</p>
+                    <p className='text-[#FFF] text-center text-[12px]  mt-[14px]'>Community Spaces</p>
                   </div>
                 </div>
               </div>
