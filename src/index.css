@@ -26,6 +26,14 @@ body {
   background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
 }
 
+.ecoborderRightSmall {
+  background: #736D31;
+}
+
+.ecoborderRightIconSmall {
+  background: var(--Button-colour, linear-gradient(90deg, #D1CB18 0%, #E77962 100%));
+}
+
 /* Tokenomics */
 .forgeBgImgThree {
   background-image: url(../src/assets/tokenomics/Designer3.png);

@@ -151,13 +151,13 @@ const Ecosystem = () => {
                   <div className='relative'>
 
                     {/* right side bar card 4 */}
-                    <div className=''>
-                      <div className='ecoborderRight md:w-[200px] md:h-[112px]'>
-                        <div className='ecoborderRightIcon'>
-                          <img className='' src={ecoBgImgrightIcon2} alt="" />
+                    <div className='left-[1px] bottom-[170px]'>
+                      <div className='ecoborderRightSmall px-[9px] py-[15px] w-[58px] h-[85px] overflow-hidden'>
+                        <div className='ecoborderRightIconSmall flex justify-center items-center w-[60px]h-[50px]'>
+                          <img className='w-[30px]' src={ecoBgImgrightIcon2} alt="" />
                         </div>
                         <div>
-                          <p className='text-[#FFF] text-center text-[20px] leading-[32px]'>Socials</p>
+                          <p className='text-[#FFF] text-[14px] leading-[32px]'>Socials</p>
                         </div>
                       </div>
                     </div>
