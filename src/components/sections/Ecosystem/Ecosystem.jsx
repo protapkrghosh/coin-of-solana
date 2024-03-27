@@ -145,13 +145,24 @@ const Ecosystem = () => {
 
 
               {/* right side  */}
-              <div className='absolute md:left-[118px] md:bottom-[-1570px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[88px] h-[162px] rounded-[16px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[70px] h-[70px] rounded-[16px]'>
-                    <img className='w-[40px]' src={ecoBgImgrightIcon2} alt="" />
+              <div className='absolute md:left-[77px] md:bottom-[-1673px]'>
+                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[162px] rounded-[20px]'>
+                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                    <img className='w-[40px]' src={ecoBgImgrightIcon5} alt="" />
                   </div>
                   <div>
-                    <p className='text-[#FFF] text-center text-[12px]  mt-[14px]'>Community Spaces</p>
+                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Payments</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className='absolute md:left-[77px] md:bottom-[-1673px]'>
+                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[162px] rounded-[20px]'>
+                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                    <img className='w-[40px]' src={ecoBgImgrightIcon5} alt="" />
+                  </div>
+                  <div>
+                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Payments</p>
                   </div>
                 </div>
               </div>
