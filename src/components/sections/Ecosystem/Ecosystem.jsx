@@ -129,8 +129,10 @@ const Ecosystem = () => {
               </div>
 
               {/*------------------ small device section ------------------ */}
-              <div>
-
+              <div className='block lg:hidden'>
+                <div className='md:mt-[350px] md:mb-[300px] md:ml-[-100px]'>
+                  <div className='md:w-[900px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
+                </div>
               </div>
 
             </div>
