@@ -133,89 +133,89 @@ const Ecosystem = () => {
                 <div className='md:mt-[455px] md:mb-[400px] md:ml-[-220px]'>
                   <div className='md:w-[1100px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
                 </div>
-              </div>
-
-              {/* left side card 1 */}
-              <div className='absolute md:bottom-[-438px] md:left-[575px]'>
-                <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
-                <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
-                  <img className='w-[70%]' src={ecoBgImgleftIcon1} alt="" />
-                </div>
-              </div>
-
-              <div className='absolute md:bottom-[-438px] md:left-[320px]'>
-                <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
-                <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
-                  <img className='w-[70%]' src={ecoBgImgleftIcon2} alt="" />
-                </div>
-              </div>
-
-              <div className='absolute md:bottom-[-438px] md:left-[75px]'>
-                <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
-                <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
-                  <img className='w-[70%]' src={ecoBgImgleftIcon3} alt="" />
-                </div>
-              </div>
 
 
-              {/* right side  */}
-              <div className='absolute md:left-[77px] md:bottom-[-1681px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
-                    <img className='w-[40px]' src={ecoBgImgrightIcon5} alt="" />
-                  </div>
-                  <div>
-                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Payments</p>
+                {/* left side card 1 */}
+                <div className='absolute md:bottom-[-438px] md:left-[575px]'>
+                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
+                  <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
+                    <img className='w-[70%]' src={ecoBgImgleftIcon1} alt="" />
                   </div>
                 </div>
-              </div>
 
-              <div className='absolute md:left-[199px] md:bottom-[-1681px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
-                    <img className='w-[40px]' src={ecoBgImgrightIcon4} alt="" />
-                  </div>
-                  <div>
-                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>NFT</p>
+                <div className='absolute md:bottom-[-438px] md:left-[320px]'>
+                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
+                  <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
+                    <img className='w-[70%]' src={ecoBgImgleftIcon2} alt="" />
                   </div>
                 </div>
-              </div>
 
-              <div className='absolute md:left-[323px] md:bottom-[-1681px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
-                    <img className='w-[40px]' src={ecoBgImgrightIcon3} alt="" />
-                  </div>
-                  <div>
-                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>DeFi</p>
+                <div className='absolute md:bottom-[-438px] md:left-[75px]'>
+                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
+                  <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
+                    <img className='w-[70%]' src={ecoBgImgleftIcon3} alt="" />
                   </div>
                 </div>
-              </div>
 
-              <div className='absolute md:left-[445px] md:bottom-[-1681px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
-                    <img className='w-[40px]' src={ecoBgImgrightIcon2} alt="" />
-                  </div>
-                  <div>
-                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Socials</p>
+
+                {/* right side  */}
+                <div className='absolute md:left-[77px] md:bottom-[-1681px]'>
+                  <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
+                    <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                      <img className='w-[40px]' src={ecoBgImgrightIcon5} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Payments</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className='absolute md:left-[572px] md:bottom-[-1681px]'>
-                <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
-                  <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
-                    <img className='w-[40px]' src={ecoBgImgrightIcon1} alt="" />
-                  </div>
-                  <div>
-                    <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Community Spaces</p>
+                <div className='absolute md:left-[199px] md:bottom-[-1681px]'>
+                  <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
+                    <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                      <img className='w-[40px]' src={ecoBgImgrightIcon4} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>NFT</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
+                <div className='absolute md:left-[323px] md:bottom-[-1681px]'>
+                  <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
+                    <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                      <img className='w-[40px]' src={ecoBgImgrightIcon3} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>DeFi</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='absolute md:left-[445px] md:bottom-[-1681px]'>
+                  <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
+                    <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                      <img className='w-[40px]' src={ecoBgImgrightIcon2} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Socials</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='absolute md:left-[572px] md:bottom-[-1681px]'>
+                  <div className='ecoborderRightSmall px-[9px] py-[15px] w-[94px] h-[155px] rounded-[20px]'>
+                    <div className='ecoborderRightIconSmall flex justify-center items-center w-[75px] h-[75px] rounded-[20px]'>
+                      <img className='w-[40px]' src={ecoBgImgrightIcon1} alt="" />
+                    </div>
+                    <div>
+                      <p className='text-[#FFF] text-center text-[12px]  mt-[20px]'>Community Spaces</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
-
           </div>
         </Container>
       </div>
