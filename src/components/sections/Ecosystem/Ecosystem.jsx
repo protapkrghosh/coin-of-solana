@@ -18,7 +18,7 @@ import ecoBgImgrightIcon5 from '@/assets/ecosystem/Group 1171275169.png';
 const Ecosystem = () => {
   return (
     <>
-      <div className='bg-gradient-to-r from-[#191610] to-[#191610]' id='ecosystem'>
+      <div className='bg-gradient-to-r from-[#191610] to-[#191610] overflow-hidden' id='ecosystem'>
         <Container>
           <div className='pb-[50px]'>
             <p className='text-[#FFF] lg:text-[66px] md:text-[60px] text-[48px] lg:leading-[79.2px] md:leading-[79.2px] leading-[79.2px] text-center'>ECOSYSTEM</p>
