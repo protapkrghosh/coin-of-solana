@@ -49,8 +49,7 @@ const Tokenomics = () => {
               </div>
 
               <div className='bg-no-repeat bg-top'>
-                <p className='text-[#CCC2C2] text-[18px] text-justify md:text-center font-normal 2xl:w-[87%] mx-auto md:pt-14'>Why EGOM ?  $EGOM is like the coolest meme coin ever, created by a bunch of friends who love jokes and funny stuff. It's not just about making money, it's about having fun and being part of a cool community. Having some $EGOM your life just makes everything better!</p>
-
+                <p className='text-[#CCC2C2] text-[18px] text-justify md:text-center font-normal 2xl:w-[87%] mx-auto pt-14'>Why EGOM ?  $EGOM is like the coolest meme coin ever, created by a bunch of friends who love jokes and funny stuff. It's not just about making money, it's about having fun and being part of a cool community. Having some $EGOM your life just makes everything better!</p>
 
                 <div className='block lg:hidden mt-32'>
                   <img src={forgeImg1} alt="Image" className='md:w-[300px] xl:w-[450px] mt-10 xl:-mt-16 lg:mr-10 xl:mr-12 mx-auto -mb-40' />
