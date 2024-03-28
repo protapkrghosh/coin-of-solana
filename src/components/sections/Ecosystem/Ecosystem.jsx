@@ -20,7 +20,7 @@ const Ecosystem = () => {
     <>
       <div className='bg-gradient-to-r from-[#191610] to-[#191610] overflow-hidden' id='ecosystem'>
         <Container>
-          <div className='pb-[50px]'>
+          <div className='lg:pt-[90px] pb-[50px]'>
             <p className='text-[#FFF] lg:text-[66px] md:text-[60px] text-[48px] lg:leading-[79.2px] md:leading-[79.2px] leading-[79.2px] text-center'>ECOSYSTEM</p>
 
             <div className='relative'>
