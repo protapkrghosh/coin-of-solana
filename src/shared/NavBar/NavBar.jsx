@@ -49,7 +49,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="tokenomics" smooth={true} offset={-30} duration={600} className={`text-[18px] font-semibold uppercase cursor-pointer ${activeLink === "tokenomics" ? 'bg-clip-text text-transparent bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#D1CB18] hover:to-[#E77962]' : 'bg-clip-text text-transparent bg-gradient-to-r from-[#D8D8D8] to-[#D8D8D8] hover:from-[#D1CB18] hover:to-[#E77962] duration-300'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
+                <Link to="tokenomics" smooth={true} offset={-60} duration={600} className={`text-[18px] font-semibold uppercase cursor-pointer ${activeLink === "tokenomics" ? 'bg-clip-text text-transparent bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#D1CB18] hover:to-[#E77962]' : 'bg-clip-text text-transparent bg-gradient-to-r from-[#D8D8D8] to-[#D8D8D8] hover:from-[#D1CB18] hover:to-[#E77962] duration-300'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
               </li>
 
               <div className="block md:hidden">
