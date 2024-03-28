@@ -23,7 +23,7 @@ const Ecosystem = () => {
           <div className='pb-[50px]'>
             <p className='text-[#FFF] lg:text-[66px] md:text-[60px] text-[48px] lg:leading-[79.2px] md:leading-[79.2px] leading-[79.2px] text-center'>ECOSYSTEM</p>
 
-            <div>
+            <div className='relative'>
               {/*------------------ large device section ------------------ */}
 
               <div className='hidden lg:block'>
@@ -136,21 +136,21 @@ const Ecosystem = () => {
 
 
                 {/* left side card 1 */}
-                <div className='absolute md:bottom-[-450px] bottom-[-285px] md:left-[575px] left-[10px]'>
+                <div className='absolute md:bottom-[810px] bottom-[-285px] md:left-[535px] left-[10px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>nft</p>
                   <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
                     <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon3} alt="" />
                   </div>
                 </div>
 
-                <div className='absolute md:bottom-[-450px] bottom-[-285px] md:left-[320px] left-[170px]'>
+                <div className='absolute md:bottom-[810px] bottom-[-285px] md:left-[280px] left-[170px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
                   <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
                     <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon2} alt="" />
                   </div>
                 </div>
 
-                <div className='absolute md:bottom-[-450px] bottom-[-285px] md:left-[75px] left-[340px]'>
+                <div className='absolute md:bottom-[810px] bottom-[-285px] md:left-[30px] left-[340px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>dex</p>
                   <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
                     <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon1} alt="" />
@@ -159,7 +159,7 @@ const Ecosystem = () => {
 
 
                 {/* right side  */}
-                <div className='absolute md:left-[77px] left-[7px] md:bottom-[-1677px] bottom-[-1192px]'>
+                <div className='absolute md:left-[35px] left-[7px] md:bottom-[-435px] bottom-[-1192px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon5} alt="" />
@@ -170,7 +170,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[199px] left-[90px] md:bottom-[-1677px] bottom-[-1192px]'>
+                <div className='absolute md:left-[151px] left-[90px] md:bottom-[-433px] bottom-[-1192px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon4} alt="" />
@@ -181,7 +181,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[323px] left-[175px] md:bottom-[-1677px] bottom-[-1192px]'>
+                <div className='absolute md:left-[283px] left-[175px] md:bottom-[-433px] bottom-[-1192px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon3} alt="" />
@@ -192,7 +192,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[445px] left-[260px] md:bottom-[-1677px] bottom-[-1192px]'>
+                <div className='absolute md:left-[405px] left-[260px] md:bottom-[-433px] bottom-[-1192px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon2} alt="" />
@@ -203,7 +203,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[572px] left-[345px] md:bottom-[-1677px] bottom-[-1192px]'>
+                <div className='absolute md:left-[532px] left-[345px] md:bottom-[-433px] bottom-[-1192px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon1} alt="" />
