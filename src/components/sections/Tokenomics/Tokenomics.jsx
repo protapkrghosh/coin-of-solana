@@ -105,34 +105,34 @@ const Tokenomics = () => {
                     </ResponsiveContainer> */}
                     <img src={chartImg} alt="Image" className='w-[80%] md:w-[50%] lg:w-[90%] mx-auto lg:mx-0' />
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[90px] lg:top-[50px] xl:top-[80px] 2xl:top-[112px] left-[250px] md:left-[400px] lg:left-[150px] xl:left-[220px] 2xl:left-[256px]'>75%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[90px] lg:top-[70px] xl:top-[80px] 2xl:top-[112px] left-[250px] md:left-[400px] lg:left-[160px] xl:left-[220px] 2xl:left-[256px]'>75%</p>
 
                     <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[80px] lg:top-[60px] xl:top-[85px] 2xl:top-[112px] left-[110px] md:left-[240px] lg:left-[50px] xl:left-[70px] 2xl:left-[100px]'>10%</p>
 
                     <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[135px] md:top-[140px] lg:top-[110px] xl:top-[145px] 2xl:top-[180px] left-[80px] md:left-[210px] lg:left-[30px] xl:left-[50px] 2xl:left-[60px]'>10%</p>
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[230px] md:top-[250px] lg:top-[190px] xl:top-[250px] 2xl:top-[320px] left-[180px] md:left-[320px] lg:left-[120px] xl:left-[150px] 2xl:left-[180px]'>5%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[230px] md:top-[250px] lg:top-[190px] xl:top-[250px] 2xl:top-[320px] left-[180px] md:left-[320px] lg:left-[110px] xl:left-[150px] 2xl:left-[180px]'>5%</p>
                   </div>
 
                   {/* Gradient button */}
                   <div className='space-y-8 mt-20 lg:mt-0'>
-                    <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                    <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786200] rounded-full'>
                       <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>Token supply 1,000,000,000</p>
                     </div>
 
-                    <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full w-[82%]'>
+                    <div className='p-[1px] bg-gradient-to-r from-[#d1cb1800] to-[#E77962] rounded-full w-[82%]'>
                       <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>75% <span className='text-[#bbb]'>of Token go to LP</span></p>
                     </div>
 
-                    <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                    <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786200] rounded-full'>
                       <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>10% <span className='text-[#bbb]'>of token go to Presale</span></p>
                     </div>
 
-                    <div className='p-[1px] bg-gradient-to-r from-[#d1cb1809] to-[#E77962] rounded-full'>
+                    <div className='p-[1px] bg-gradient-to-r from-[#d1cb1800] to-[#E77962] rounded-full'>
                       <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of token go to Marketing</span></p>
                     </div>
 
-                    <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786209] rounded-full'>
+                    <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786200] rounded-full'>
                       <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>10% <span className='text-[#bbb]'> of CEX and Future team</span></p>
                     </div>
                   </div>
