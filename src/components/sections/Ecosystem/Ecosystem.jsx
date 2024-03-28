@@ -158,7 +158,7 @@ const Ecosystem = () => {
                 </div>
 
 
-                {/* right side  */}
+                {/*  right side  */}
                 <div className='absolute md:left-[35px] left-[-7px] md:bottom-[-435px] bottom-[-347px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
