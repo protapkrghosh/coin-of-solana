@@ -3,8 +3,6 @@ import Container from '../Container/Container';
 import ecoBgImgleft from '@/assets/ecosystem/Designerpre1.png';
 import ecoBgImgright from '@/assets/ecosystem/Designerpre2.png';
 import ecoBgImg from '@/assets/ecosystem/Group 8793 (2).png';
-import ecoBgImgRotade from '@/assets/ecosystem/Group 1171275171.png';
-import cricleIcon from '@/assets/ecosystem/Group 1171275.png';
 import ecoBgImgleftIcon1 from '@/assets/ecosystem/Group1171275166.png';
 import ecoBgImgleftIcon2 from '@/assets/ecosystem/Group1171275167.png';
 import ecoBgImgleftIcon3 from '@/assets/ecosystem/Group1171275165.png';
@@ -20,7 +18,7 @@ const Ecosystem = () => {
     <>
       <div className='bg-gradient-to-r from-[#191610] to-[#191610] overflow-hidden' id='ecosystem'>
         <Container>
-          <div className='pb-[50px]'>
+          <div className='lg:pt-[90px] pb-[50px]'>
             <p className='text-[#FFF] lg:text-[66px] md:text-[60px] text-[48px] lg:leading-[79.2px] md:leading-[79.2px] leading-[79.2px] text-center'>ECOSYSTEM</p>
 
             <div className='relative'>
@@ -30,11 +28,18 @@ const Ecosystem = () => {
                 <div>
                   <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] lg:w-[63%] mx-auto 2xl:ml-[97px] xl:ml-[97px] lg:ml-[80px]' src={ecoBgImg} alt="image" />
 
+                  {/* ecosystem backgroun image  */}
+                  <div className='hidden lg:block'>
+                    {/* left side  */}
+                    <img className='2xl:w-[32%] xl:w-[30%] lg:w-[30%] absolute 2xl:bottom-[340px] xl:bottom-[300px] lg:bottom-[250px] 2xl:left-12 xl:left-12 lg:left-7' src={ecoBgImgleft} alt="image" />
+
+                    {/* right side  */}
+                    <img className='2xl:w-[32%] xl:w-[30%] lg:w-[30%] absolute 2xl:bottom-[340px] xl:bottom-[300px] lg:bottom-[250px] 2xl:right-12 xl:right-12 lg:right-7' src={ecoBgImgright} alt="image" />
+                  </div>
+
                   {/* left side section */}
                   <div className='relative'>
                     {/* left side card 1 */}
-
-
 
                     <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[445px] xl:bottom-[328px] lg:bottom-[224px] lg:left-[1px]'>
                       <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
@@ -134,23 +139,32 @@ const Ecosystem = () => {
                   <div className='md:w-[1100px] w-[760px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
                 </div>
 
+                {/* ecosystem background images  */}
+                <div className='block lg:hidden'>
+                  {/* left side  */}
+                  <img className='md:w-[35%] w-[30%] absolute md:bottom-[800px] bottom-[680px] md:-left-8 -left-4' src={ecoBgImgleft} alt="image" />
+
+                  {/* right side  */}
+                  <img className='md:w-[30%] w-[28%] absolute md:bottom-[820px] bottom-[680px] md:-right-2 right-1' src={ecoBgImgright} alt="image" />
+                </div>
+
 
                 {/* left side card 1 */}
-                <div className='absolute md:bottom-[810px] bottom-[-285px] md:left-[535px] left-[10px]'>
+                <div className='absolute md:bottom-[810px] bottom-[558px] md:left-[535px] left-[-10px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>nft</p>
                   <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
                     <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon3} alt="" />
                   </div>
                 </div>
 
-                <div className='absolute md:bottom-[810px] bottom-[-285px] md:left-[280px] left-[170px]'>
+                <div className='absolute md:bottom-[810px] bottom-[558px] md:left-[280px] left-[155px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
                   <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
                     <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon2} alt="" />
                   </div>
                 </div>
 
-                <div className='absolute md:bottom-[810px] bottom-[-285px] md:left-[30px] left-[340px]'>
+                <div className='absolute md:bottom-[810px] bottom-[558px] md:left-[30px] left-[327px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>dex</p>
                   <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
                     <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon1} alt="" />
@@ -158,8 +172,8 @@ const Ecosystem = () => {
                 </div>
 
 
-                {/* right side  */}
-                <div className='absolute md:left-[35px] left-[7px] md:bottom-[-435px] bottom-[-1192px]'>
+                {/*  right side  */}
+                <div className='absolute md:left-[35px] left-[-7px] md:bottom-[-435px] bottom-[-347px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon5} alt="" />
@@ -170,7 +184,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[151px] left-[90px] md:bottom-[-433px] bottom-[-1192px]'>
+                <div className='absolute md:left-[151px] left-[78px] md:bottom-[-433px] bottom-[-347px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon4} alt="" />
@@ -181,7 +195,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[283px] left-[175px] md:bottom-[-433px] bottom-[-1192px]'>
+                <div className='absolute md:left-[283px] left-[163px] md:bottom-[-433px] bottom-[-347px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon3} alt="" />
@@ -192,7 +206,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[405px] left-[260px] md:bottom-[-433px] bottom-[-1192px]'>
+                <div className='absolute md:left-[405px] left-[247px] md:bottom-[-433px] bottom-[-347px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon2} alt="" />
@@ -203,7 +217,7 @@ const Ecosystem = () => {
                   </div>
                 </div>
 
-                <div className='absolute md:left-[532px] left-[345px] md:bottom-[-433px] bottom-[-1192px]'>
+                <div className='absolute md:left-[532px] left-[331px] md:bottom-[-433px] bottom-[-347px]'>
                   <div className='ecoborderRightSmall px-[9px] py-[15px] md:w-[94px] w-[75px] md:h-[155px] h-[155px] rounded-[20px]'>
                     <div className='ecoborderRightIconSmall flex justify-center items-center md:w-[75px] w-[56px] md:h-[75px] h-[55px] rounded-[20px]'>
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon1} alt="" />
