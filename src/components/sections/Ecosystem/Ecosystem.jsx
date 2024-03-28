@@ -130,30 +130,30 @@ const Ecosystem = () => {
 
               {/*------------------ small device section ------------------ */}
               <div className='block lg:hidden'>
-                <div className='md:mt-[455px] mt-[455px] md:mb-[400px] mb-[400px] md:ml-[-220px] ml-[-185px]'>
+                <div className='md:mt-[455px] mt-[400px] md:mb-[400px] mb-[320px] md:ml-[-220px] ml-[-185px]'>
                   <div className='md:w-[1100px] w-[760px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
                 </div>
 
 
                 {/* left side card 1 */}
-                <div className='absolute md:bottom-[-450px] bottom-[-250px] md:left-[575px] left-[75px]'>
-                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
+                <div className='absolute md:bottom-[-450px] bottom-[-285px] md:left-[575px] left-[10px]'>
+                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>nft</p>
+                  <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
+                    <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon3} alt="" />
+                  </div>
+                </div>
+
+                <div className='absolute md:bottom-[-450px] bottom-[-285px] md:left-[320px] left-[170px]'>
+                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>Gaming</p>
+                  <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
+                    <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon2} alt="" />
+                  </div>
+                </div>
+
+                <div className='absolute md:bottom-[-450px] bottom-[-285px] md:left-[75px] left-[340px]'>
+                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>dex</p>
                   <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
                     <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon1} alt="" />
-                  </div>
-                </div>
-
-                <div className='absolute md:bottom-[-450px] md:left-[320px]'>
-                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
-                  <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
-                    <img className='w-[70%]' src={ecoBgImgleftIcon2} alt="" />
-                  </div>
-                </div>
-
-                <div className='absolute md:bottom-[-450px] md:left-[75px]'>
-                  <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>NFT</p>
-                  <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
-                    <img className='w-[70%]' src={ecoBgImgleftIcon3} alt="" />
                   </div>
                 </div>
 
