@@ -14,7 +14,7 @@ const Banner = () => {
               <div>
                 <p className='text-white text-[34px] md:text-[50px] xl:text-[56px] 2xl:text-[64px] font-normal -mb-2 md:-mb-5'>The Community</p>
 
-                <h1 className='text-[34px] md:text-[50px] lg:text-[48px] xl:text-[56px] 2xl:text-[64px] font-bold'><span className="bg-clip-text text-transparent bg-gradient-to-r from-[#D1CB18] to-[#E77962]">Coin of Solana </span></h1>
+                <h1 className='text-[34px] md:text-[50px] lg:text-[46px] xl:text-[56px] 2xl:text-[64px] font-bold'><span className="bg-clip-text text-transparent bg-gradient-to-r from-[#D1CB18] to-[#E77962]">Coin of Solana </span></h1>
 
                 <p className='text-[#CBC2C2] text-[15px] lg:text-[16px] xl:text-[18px] font-normal mt-5 xl:mt-8 mb-8 xl:mb-14'>The new token PERRY v2 is here to make memecoins great again. The most memeable memecoin in existence. Tje PEPE have had their day, it’s time for PERRY to take reign!</p>
 
