@@ -42,7 +42,7 @@ const Tokenomics = () => {
         <div className=''>
           <Container>
             <div className='relative'>
-              <div className='flex justify-center lg:pt-20 -mb-[320px] lg:-mb-[420px] xl:-mb-[450px]'>
+              <div className='flex justify-center xl:pt-0 lg:pt-16 -mb-[320px] lg:-mb-[420px] xl:-mb-[450px]'>
                 <img src={forgeImg1} alt="Image" className='md:w-[300px] xl:w-[450px] mt-10 lg:mr-10 xl:mr-12' />
               </div>
 
