@@ -5,7 +5,7 @@ import forgeImg2 from '@/assets/tokenomics/Designer2.png';
 import forgeImg3 from '@/assets/tokenomics/Designer3.png';
 import forgeImg4 from '@/assets/tokenomics/Designer4.png';
 import forgeImg5 from '@/assets/tokenomics/Designer5.png';
-import chartImg from '@/assets/tokenomics/Group81.png';
+import chartImg from '@/assets/tokenomics/Group73.png';
 import arrowIcon from '@/assets/tokenomics/arroup.svg';
 import { IoIosArrowUp } from "react-icons/io";
 import React, { PureComponent } from 'react';
@@ -38,16 +38,23 @@ const Tokenomics = () => {
 
   return (
     <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 overflow-hidden' id='tokenomics'>
-      <div className=''>
-        <div className=''>
+      <div>
+        <div>
           <Container>
             <div className='relative'>
-              <div className='flex justify-center xl:pt-0 lg:pt-16 -mb-[320px] lg:-mb-[420px] xl:-mb-[450px]'>
-                <img src={forgeImg1} alt="Image" className='md:w-[300px] xl:w-[450px] mt-10 lg:mr-10 xl:mr-12' />
+              <div className='hidden lg:block'>
+                <div className='flex justify-center lg:pt-20 -mb-[320px] lg:-mb-[420px] xl:-mb-[450px]'>
+                  <img src={forgeImg1} alt="Image" className='md:w-[300px] xl:w-[450px] mt-10 xl:-mt-16 lg:mr-10 xl:mr-12' />
+                </div>
               </div>
 
               <div className='bg-no-repeat bg-top'>
                 <p className='text-[#CCC2C2] text-[18px] text-justify md:text-center font-normal 2xl:w-[87%] mx-auto md:pt-14'>Why EGOM ?  $EGOM is like the coolest meme coin ever, created by a bunch of friends who love jokes and funny stuff. It's not just about making money, it's about having fun and being part of a cool community. Having some $EGOM your life just makes everything better!</p>
+
+
+                <div className='block lg:hidden mt-32'>
+                  <img src={forgeImg1} alt="Image" className='md:w-[300px] xl:w-[450px] mt-10 xl:-mt-16 lg:mr-10 xl:mr-12 mx-auto -mb-40' />
+                </div>
 
                 {/* Tokenomics content */}
                 <div className='grid grid-cols-1 lg:grid-cols-3 pt-36 pb-36 mt-60 lg:mt-0'>
@@ -105,13 +112,13 @@ const Tokenomics = () => {
                     </ResponsiveContainer> */}
                     <img src={chartImg} alt="Image" className='w-[80%] md:w-[50%] lg:w-[90%] mx-auto lg:mx-0' />
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[90px] lg:top-[70px] xl:top-[80px] 2xl:top-[112px] left-[250px] md:left-[400px] lg:left-[160px] xl:left-[220px] 2xl:left-[256px]'>75%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[145px] md:top-[155px] lg:top-[115px] xl:top-[160px] 2xl:top-[200px] left-[260px] md:left-[415px] lg:left-[180px] xl:left-[240px] 2xl:left-[300px]'>75%</p>
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[80px] lg:top-[60px] xl:top-[85px] 2xl:top-[112px] left-[110px] md:left-[240px] lg:left-[50px] xl:left-[70px] 2xl:left-[100px]'>10%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[80px] lg:top-[60px] xl:top-[85px] 2xl:top-[112px] left-[115px] md:left-[248px] lg:left-[60px] xl:left-[85px] 2xl:left-[108px]'>5%</p>
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[135px] md:top-[140px] lg:top-[110px] xl:top-[145px] 2xl:top-[180px] left-[80px] md:left-[210px] lg:left-[30px] xl:left-[50px] 2xl:left-[60px]'>10%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[145px] md:top-[155px] lg:top-[120px] xl:top-[160px] 2xl:top-[200px] left-[80px] md:left-[210px] lg:left-[30px] xl:left-[50px] 2xl:left-[60px]'>10%</p>
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[230px] md:top-[250px] lg:top-[190px] xl:top-[250px] 2xl:top-[320px] left-[180px] md:left-[320px] lg:left-[110px] xl:left-[150px] 2xl:left-[180px]'>5%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[230px] md:top-[250px] lg:top-[190px] xl:top-[250px] 2xl:top-[320px] left-[130px] md:left-[260px] lg:left-[60px] xl:left-[90px] 2xl:left-[120px]'>10%</p>
                   </div>
 
                   {/* Gradient button */}
@@ -121,19 +128,19 @@ const Tokenomics = () => {
                     </div>
 
                     <div className='p-[1px] bg-gradient-to-r from-[#d1cb1800] to-[#E77962] rounded-full w-[82%]'>
-                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>75% <span className='text-[#bbb]'>of Token go to LP</span></p>
+                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>75% <span className='text-[#bbb]'> of Token go to LP</span></p>
                     </div>
 
                     <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786200] rounded-full'>
-                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>10% <span className='text-[#bbb]'>of token go to Presale</span></p>
+                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>10% <span className='text-[#bbb]'> of token cex allocation</span></p>
                     </div>
 
                     <div className='p-[1px] bg-gradient-to-r from-[#d1cb1800] to-[#E77962] rounded-full'>
-                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of token go to Marketing</span></p>
+                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>10% <span className='text-[#bbb]'> of token go to team</span></p>
                     </div>
 
                     <div className='p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#e7786200] rounded-full'>
-                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>10% <span className='text-[#bbb]'> of CEX and Future team</span></p>
+                      <p className='text-white text-[16px] md:text-[23px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] py-4 px-6 lg:px-2 xl:px-6 bg-[#191610] rounded-full'>5% <span className='text-[#bbb]'> of go to marketing</span></p>
                     </div>
                   </div>
                 </div>
