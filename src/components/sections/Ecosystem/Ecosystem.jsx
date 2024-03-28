@@ -130,16 +130,16 @@ const Ecosystem = () => {
 
               {/*------------------ small device section ------------------ */}
               <div className='block lg:hidden'>
-                <div className='md:mt-[455px] md:mb-[400px] md:ml-[-220px]'>
-                  <div className='md:w-[1100px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
+                <div className='md:mt-[455px] mt-[455px] md:mb-[400px] mb-[400px] md:ml-[-220px] ml-[-185px]'>
+                  <div className='md:w-[1100px] w-[760px] text-center'><img className='rotate-90' src={ecoBgImg} alt="" /></div>
                 </div>
 
 
                 {/* left side card 1 */}
-                <div className='absolute md:bottom-[-450px] md:left-[575px]'>
+                <div className='absolute md:bottom-[-450px] bottom-[-250px] md:left-[575px] left-[75px]'>
                   <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
-                  <div className='ecoborderleft md:h-[95px] md:w-[90px] flex justify-center items-center rounded-[15px]'>
-                    <img className='w-[70%]' src={ecoBgImgleftIcon1} alt="" />
+                  <div className='ecoborderleft md:h-[95px] h-[85px] md:w-[90px] w-[80px] flex justify-center items-center rounded-[15px]'>
+                    <img className='md:w-[70%] w-[50%]' src={ecoBgImgleftIcon1} alt="" />
                   </div>
                 </div>
 
