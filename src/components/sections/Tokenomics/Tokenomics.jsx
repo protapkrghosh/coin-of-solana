@@ -38,12 +38,12 @@ const Tokenomics = () => {
 
   return (
     <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mt-1 overflow-hidden' id='tokenomics'>
-      <div className=''>
-        <div className=''>
+      <div>
+        <div>
           <Container>
             <div className='relative'>
               <div className='flex justify-center lg:pt-20 -mb-[320px] lg:-mb-[420px] xl:-mb-[450px]'>
-                <img src={forgeImg1} alt="Image" className='md:w-[300px] xl:w-[450px] mt-10 lg:mr-10 xl:mr-12' />
+                <img src={forgeImg1} alt="Image" className='md:w-[300px] xl:w-[450px] mt-10 xl:-mt-16 lg:mr-10 xl:mr-12' />
               </div>
 
               <div className='bg-no-repeat bg-top'>
