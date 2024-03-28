@@ -105,13 +105,13 @@ const Tokenomics = () => {
                     </ResponsiveContainer> */}
                     <img src={chartImg} alt="Image" className='w-[80%] md:w-[50%] lg:w-[90%] mx-auto lg:mx-0' />
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[90px] lg:top-[70px] xl:top-[80px] 2xl:top-[200px] left-[250px] md:left-[400px] lg:left-[160px] xl:left-[220px] 2xl:left-[286px]'>75%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[145px] md:top-[155px] lg:top-[115px] xl:top-[160px] 2xl:top-[200px] left-[260px] md:left-[415px] lg:left-[180px] xl:left-[240px] 2xl:left-[300px]'>75%</p>
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[80px] lg:top-[60px] xl:top-[85px] 2xl:top-[112px] left-[110px] md:left-[240px] lg:left-[50px] xl:left-[70px] 2xl:left-[108px]'>5%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[80px] lg:top-[60px] xl:top-[85px] 2xl:top-[112px] left-[115px] md:left-[248px] lg:left-[60px] xl:left-[85px] 2xl:left-[108px]'>5%</p>
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[135px] md:top-[140px] lg:top-[110px] xl:top-[145px] 2xl:top-[200px] left-[80px] md:left-[210px] lg:left-[30px] xl:left-[50px] 2xl:left-[60px]'>10%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[145px] md:top-[155px] lg:top-[120px] xl:top-[160px] 2xl:top-[200px] left-[80px] md:left-[210px] lg:left-[30px] xl:left-[50px] 2xl:left-[60px]'>10%</p>
 
-                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[230px] md:top-[250px] lg:top-[190px] xl:top-[250px] 2xl:top-[320px] left-[180px] md:left-[320px] lg:left-[110px] xl:left-[150px] 2xl:left-[120px]'>10%</p>
+                    <p className='text-[#000] text-[17px] md:text-[23px] absolute top-[230px] md:top-[250px] lg:top-[190px] xl:top-[250px] 2xl:top-[320px] left-[130px] md:left-[260px] lg:left-[60px] xl:left-[90px] 2xl:left-[120px]'>10%</p>
                   </div>
 
                   {/* Gradient button */}
