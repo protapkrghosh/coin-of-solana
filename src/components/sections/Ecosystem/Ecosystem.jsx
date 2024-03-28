@@ -209,7 +209,7 @@ const Ecosystem = () => {
                       <img className='md:w-[40px] w-[32px]' src={ecoBgImgrightIcon1} alt="" />
                     </div>
                     <div>
-                      <p className='text-[#FFF] text-center text-[10px]  mt-[20px]'>Community Spaces</p>
+                      <p className='text-[#FFF] text-center md:text-[10px] text-[9px]  mt-[20px]'>Community Spaces</p>
                     </div>
                   </div>
                 </div>
