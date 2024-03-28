@@ -30,11 +30,15 @@ const Ecosystem = () => {
                 <div>
                   <img className='mt-[162px] 2xl:w-[75%] xl:w-[70%] lg:w-[63%] mx-auto 2xl:ml-[97px] xl:ml-[97px] lg:ml-[80px]' src={ecoBgImg} alt="image" />
 
+                  {/* left side  */}
+                  <img className='2xl:w-[32%] xl:w-[30%] lg:w-[30%] absolute 2xl:bottom-[340px] xl:bottom-[300px] lg:bottom-[250px] 2xl:left-12 xl:left-12 lg:left-7' src={ecoBgImgleft} alt="image" />
+
+                  {/* right side  */}
+                  <img className='2xl:w-[32%] xl:w-[30%] lg:w-[30%] absolute 2xl:bottom-[340px] xl:bottom-[300px] lg:bottom-[250px] 2xl:right-12 xl:right-12 lg:right-7' src={ecoBgImgright} alt="image" />
+
                   {/* left side section */}
                   <div className='relative'>
                     {/* left side card 1 */}
-
-
 
                     <div className='lg:absolute lg:max-w-[101.092px] 2xl:bottom-[445px] xl:bottom-[328px] lg:bottom-[224px] lg:left-[1px]'>
                       <p className='text-[#FFF] text-[20px] leading-[32px] text-center mb-[15px]'>DEX</p>
