@@ -83,7 +83,7 @@ const Tokenomics = () => {
                       {/* Future team */}
                       <div className='flex items-center'>
                         <div className='w-16 md:w-24 lg:w-16 xl:w-24 h-8 xl:h-9 2xl:h-10 border-2 border-[#71D420] rounded-full mr-5' />
-                        <p className='text-[#CCC2C2] text-[20px] md:text-[24px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] font-normal'>CEX allocation</p>
+                        <p className='text-[#CCC2C2] text-[20px] md:text-[24px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] font-normal'>Presale</p>
                       </div>
                     </div>
                   </div>
