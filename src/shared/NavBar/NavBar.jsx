@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useState } from "react";
 import { Link } from "react-scroll";
+import { Link as LinkRoute } from "react-router-dom";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -52,17 +53,17 @@ const NavBar = () => {
                 <Link to="tokenomics" smooth={true} offset={-60} duration={600} className={`text-[18px] font-semibold uppercase cursor-pointer ${activeLink === "tokenomics" ? 'bg-clip-text text-transparent bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#D1CB18] hover:to-[#E77962]' : 'bg-clip-text text-transparent bg-gradient-to-r from-[#D8D8D8] to-[#D8D8D8] hover:from-[#D1CB18] hover:to-[#E77962] duration-300'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
               </li>
 
-              <div className="block md:hidden">
+              {/* <div className="block md:hidden">
                 <div className="md:flex items-center">
                   <div className="p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#E77962] rounded-[30px] mr-10 w-fit">
                     <button className="text-[#fff] bg-[#1c1811] hover:bg-[#352d20] 2xl:text-[18px] px-14 2xl:px-7 py-[10px] md:py-[15px] rounded-[30px]">Buy Now</button>
                   </div>
 
                   <div className="bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#e7e01a] hover:to-[#fa8168] rounded-[30px] w-fit mt-5 md:mt-0">
-                    <button className="text-[#0A0E0D] 2xl:text-[18px] px-6 2xl:px-7 py-[10px] md:py-[15px] rounded-[30px]">connect Wallet</button>
+                    <button className="text-[#0A0E0D] 2xl:text-[18px] px-6 2xl:px-7 py-[10px] md:py-[15px] rounded-[30px]">Presssale</button>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </ul>
 
             <div className="md:block hidden">
@@ -72,7 +73,9 @@ const NavBar = () => {
                 </div>
 
                 <div className="bg-gradient-to-r from-[#D1CB18] to-[#E77962] hover:from-[#e7e01a] hover:to-[#fa8168] rounded-[30px]">
-                  <button className="text-[#0A0E0D] 2xl:text-[18px] px-6 2xl:px-7 py-[15px] rounded-[30px]">connect Wallet</button>
+                  <LinkRoute to="/presale">
+                      <button className="text-[#0A0E0D] 2xl:text-[18px] px-6 2xl:px-7 py-[15px] rounded-[30px]">Presale</button>
+                  </LinkRoute>
                 </div>
               </div>
             </div>
