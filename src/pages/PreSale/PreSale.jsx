@@ -1,13 +1,15 @@
-import Banner from '@/components/sections/Banner/Banner';
-import Walletbuy from '@/components/sections/WalletBuy/Walletbuy';
-import DashNavBar from '@/shared/NavBar/DashNavBar';
+import SolContext from "@/shared/SolContext/SolContext"
 import React from 'react';
 
 const PreSale = () => {
   return (
     <div>
-        <DashNavBar />
+      {/* <SolContext>
+        <DashNavBarSol />
         <Walletbuy />
+      </SolContext> */}
+
+      <SolContext />
     </div>
   );
 };
