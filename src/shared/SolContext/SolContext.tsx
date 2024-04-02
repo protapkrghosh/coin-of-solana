@@ -1,14 +1,15 @@
 import React, { FC, useMemo } from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets';
-import {
-    WalletModalProvider,
-} from '@solana/wallet-adapter-react-ui';
+import { 
+    LedgerWalletAdapter,
+    PhantomWalletAdapter,
+    SolflareWalletAdapter,
+    UnsafeBurnerWalletAdapter,
+} from '@solana/wallet-adapter-wallets';
+import { WalletModalProvider } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
-import Walletbuy from '@/components/sections/WalletBuy/Walletbuy';
 import PreSale from '@/pages/PreSale/PreSale';
-import DashNavBarSol from '@/shared/NavBar/DashNavBarSol';
 
 // Default styles that can be overridden by your app
 // require('@solana/wallet-adapter-react-ui/styles.css');
@@ -19,8 +20,8 @@ const SolContext: FC = (props) => {
     // console.log(props.path)
 
     // You can also provide a custom RPC endpoint.
-    // const endpoint = useMemo(() => clusterApiUrl(network), [network]);
-    const endpoint = "https://fabled-wandering-silence.solana-devnet.quiknode.pro/074ea3c60fe0af34bdc91523b9e7bfb0c550fccf/";
+    const endpoint = useMemo(() => clusterApiUrl(network), [network]);
+    // const endpoint = "https://fabled-wandering-silence.solana-devnet.quiknode.pro/074ea3c60fe0af34bdc91523b9e7bfb0c550fccf/";
 
     const wallets = useMemo(
         () => [
@@ -36,6 +37,10 @@ const SolContext: FC = (props) => {
              * instantiate its legacy wallet adapter here. Common legacy adapters can be found
              * in the npm package `@solana/wallet-adapter-wallets`.
              */
+
+            new LedgerWalletAdapter(),
+            new PhantomWalletAdapter(),
+            new SolflareWalletAdapter({ network }),
             new UnsafeBurnerWalletAdapter(),
         ],
         // eslint-disable-next-line react-hooks/exhaustive-deps

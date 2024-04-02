@@ -1,3 +1,4 @@
+import configSettings from '@/settings.json';
 import forgeImg from '@/assets/banner/Designer.png';
 import bannerImg from '@/assets/banner/Frame 65.png'
 import Container from '../Container/Container';
@@ -5,12 +6,13 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { WalletNotConnectedError } from "@solana/wallet-adapter-base";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-import { Keypair, SystemProgram, Transaction, LAMPORTS_PER_SOL, PublicKey, clusterApiUrl } from "@solana/web3.js";
-import React, { FC, ReactNode, useMemo, useCallback, useState, useRef } from 'react';
+import { SystemProgram, Transaction, LAMPORTS_PER_SOL, PublicKey, clusterApiUrl } from "@solana/web3.js";
+import React, { useCallback, useRef } from 'react';
 
 
 let thelamports = 0;
-let theWallet = "FBFPXbrTncccBa52i82HakaqFc9BxSNoukndabHix8i1"
+let theWallet = configSettings.siteSettings.walletAddress
+let loading = false
 
 const Walletbuy = () => {
   const valueRef = useRef('')
@@ -20,7 +22,8 @@ const Walletbuy = () => {
   const { publicKey, sendTransaction } = useWallet();
 
   const onClick = useCallback(async () => {
-    
+    // this.setState({ loading: true });
+    // loading = true
     if (!publicKey) throw new WalletNotConnectedError();
     connection.getBalance(publicKey).then((bal) => {
         console.log(bal/LAMPORTS_PER_SOL);
@@ -39,12 +42,19 @@ const Walletbuy = () => {
         context: { slot: minContextSlot },
         value: { blockhash, lastValidBlockHeight }
     } = await connection.getLatestBlockhashAndContext();
-
-    const signature = await sendTransaction(transaction, connection, { minContextSlot });
-
-    await connection.confirmTransaction({ blockhash, lastValidBlockHeight, signature });
+    try {
+         const signature = await sendTransaction(transaction, connection, { minContextSlot });
+    } catch (e) {
+        // alert("Cancelled")
+        // return e
+    } finally {
+        try {
+            await connection.confirmTransaction({ blockhash, lastValidBlockHeight, signature });
+        } catch(e){
+            alert("Transaction not confitmed")
+        }
+    }
   }, [publicKey, sendTransaction, connection]);
-
 
   return (
     <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mb-1' id='home'>
@@ -80,7 +90,15 @@ const Walletbuy = () => {
                                             </div>
                                                 <div class="pt-10">
                                                     <div className="w-full lg:w-[100%] xl:w-[100%] 2xl:w-[100%] mt-10 lg:mt-0 p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#E77962] rounded-[30px] mr-10">
-                                                        <button type="submit" className="w-full text-[#fff] bg-[#1c1811] hover:bg-[#352d20] xl:w-[100%] 2xl:text-[18px] px-6 2xl:px-7 py-[15px] rounded-[30px]"onClick={onClick}>Buy Now </button>
+                                                        <button type="submit" className="w-full text-[#fff] bg-[#1c1811] hover:bg-[#352d20] xl:w-[100%] 2xl:text-[18px] px-6 2xl:px-7 py-[15px] rounded-[30px]"onClick={onClick} disabled={loading}>
+                                                            {loading && (
+                                                                <i
+                                                                className="fa fa-refresh fa-spin"
+                                                                style={{ marginRight: "5px" }}
+                                                                />
+                                                            )}
+                                                            {loading && <span>Confirming..</span>}
+                                                            {!loading && <span>Buy Now</span>} </button>
                                                     </div>
                                                 </div>
                                         </Box>
