@@ -3,10 +3,48 @@ import bannerImg from '@/assets/banner/Frame 65.png'
 import Container from '../Container/Container';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import { WalletNotConnectedError } from "@solana/wallet-adapter-base";
+import { useConnection, useWallet } from "@solana/wallet-adapter-react";
+import { Keypair, SystemProgram, Transaction, LAMPORTS_PER_SOL, PublicKey, clusterApiUrl } from "@solana/web3.js";
+import React, { FC, ReactNode, useMemo, useCallback, useState, useRef } from 'react';
 
 
+let thelamports = 0;
+let theWallet = "FBFPXbrTncccBa52i82HakaqFc9BxSNoukndabHix8i1"
 
 const Walletbuy = () => {
+  const valueRef = useRef('')
+  let sendLamports = 0;
+
+  const { connection } = useConnection();
+  const { publicKey, sendTransaction } = useWallet();
+
+  const onClick = useCallback(async () => {
+    
+    if (!publicKey) throw new WalletNotConnectedError();
+    connection.getBalance(publicKey).then((bal) => {
+        console.log(bal/LAMPORTS_PER_SOL);
+
+    });
+    sendLamports = LAMPORTS_PER_SOL*valueRef.current.value;
+    // console.log("lamports sending: from:{} to:{} Lamp{}", publicKey.toBase58(), theWallet, sendLamports)
+    const transaction = new Transaction().add(
+        SystemProgram.transfer({
+            fromPubkey: publicKey,
+            toPubkey: new PublicKey(theWallet),
+            lamports: sendLamports,
+        })
+    );
+    const {
+        context: { slot: minContextSlot },
+        value: { blockhash, lastValidBlockHeight }
+    } = await connection.getLatestBlockhashAndContext();
+
+    const signature = await sendTransaction(transaction, connection, { minContextSlot });
+
+    await connection.confirmTransaction({ blockhash, lastValidBlockHeight, signature });
+  }, [publicKey, sendTransaction, connection]);
+
 
   return (
     <div className='bg-gradient-to-r from-[#191610] to-[#191610] -mb-1' id='home'>
@@ -23,8 +61,8 @@ const Walletbuy = () => {
                             <div className="w-full top-0 left-0 z-10">
                                 <div className="w-full lg:w-[100%] xl:w-[75%] 2xl:w-[52%] mt-10 lg:mt-0 p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#E77962] rounded-[30px] mr-10">
                                     <div className="text-[#fff] bg-[#1c1811] hover:bg-[#352d20] xl:w-[100%] 2xl:text-[18px] px-6 2xl:px-7 py-[15px] rounded-[30px]">
-                                        <Box className='items-center left-[130px] text-[#CBC2C2] text-[15px] lg:text-[16px] xl:text-[18px] font-normal mt-5 xl:mt-8 mb-8 xl:mb-14'>
-                                             <p className='pt-7 ml-2 mr-2 mb-5 text-white text-[34px] md:text-[20px] xl:text-[20px] 2xl:text-[64px] font-normal'>Book $EGOM with $SOL</p>
+                                         <Box className='items-center left-[130px] text-[#CBC2C2] text-[15px] lg:text-[16px] xl:text-[18px] font-normal mt-5 xl:mt-8 mb-8 xl:mb-14'>
+                                            <p className='pt-7 ml-2 mr-2 mb-5 text-white text-[34px] md:text-[20px] xl:text-[20px] 2xl:text-[64px] font-normal'>Book $EGOM with $SOL</p>
                                                 <div class="ml-12 mr-12 pt-10 pb-5 justify-center items-center">
                                                 <div className="lg:w-[100%] xl:w-[100%] 2xl:w-[100%] mt-10 lg:mt-0 bg-gradient-to-r from-[#D1CB18] to-[#E77962]" >
                                                     <TextField id="outlined-required"
@@ -33,6 +71,7 @@ const Walletbuy = () => {
                                                                 type="number"
                                                                 variant='filled'
                                                                 fullWidth
+                                                                inputRef={valueRef}
                                                                 InputLabelProps={{
                                                                     shrink: true,
                                                                 }} />
@@ -41,7 +80,7 @@ const Walletbuy = () => {
                                             </div>
                                                 <div class="pt-10">
                                                     <div className="w-full lg:w-[100%] xl:w-[100%] 2xl:w-[100%] mt-10 lg:mt-0 p-[1px] bg-gradient-to-r from-[#D1CB18] to-[#E77962] rounded-[30px] mr-10">
-                                                        <button className="w-full text-[#fff] bg-[#1c1811] hover:bg-[#352d20] xl:w-[100%] 2xl:text-[18px] px-6 2xl:px-7 py-[15px] rounded-[30px]">Buy Now </button>
+                                                        <button type="submit" className="w-full text-[#fff] bg-[#1c1811] hover:bg-[#352d20] xl:w-[100%] 2xl:text-[18px] px-6 2xl:px-7 py-[15px] rounded-[30px]"onClick={onClick}>Buy Now </button>
                                                     </div>
                                                 </div>
                                         </Box>

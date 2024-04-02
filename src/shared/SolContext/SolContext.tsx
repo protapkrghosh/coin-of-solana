@@ -7,17 +7,20 @@ import {
 } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
 import Walletbuy from '@/components/sections/WalletBuy/Walletbuy';
+import PreSale from '@/pages/PreSale/PreSale';
 import DashNavBarSol from '@/shared/NavBar/DashNavBarSol';
 
 // Default styles that can be overridden by your app
 // require('@solana/wallet-adapter-react-ui/styles.css');
 
-const SolContext: FC = () => {
+const SolContext: FC = (props) => {
     // The network can be set to 'devnet', 'testnet', or 'mainnet-beta'.
     const network = WalletAdapterNetwork.Devnet;
+    // console.log(props.path)
 
     // You can also provide a custom RPC endpoint.
-    const endpoint = useMemo(() => clusterApiUrl(network), [network]);
+    // const endpoint = useMemo(() => clusterApiUrl(network), [network]);
+    const endpoint = "https://fabled-wandering-silence.solana-devnet.quiknode.pro/074ea3c60fe0af34bdc91523b9e7bfb0c550fccf/";
 
     const wallets = useMemo(
         () => [
@@ -43,10 +46,9 @@ const SolContext: FC = () => {
         <ConnectionProvider endpoint={endpoint}>
             <WalletProvider wallets={wallets} autoConnect>
                 <WalletModalProvider>
-                    {/* <WalletMultiButton /> */}
-                    {/* <WalletDisconnectButton /> */}
-                    <DashNavBarSol />
-                    <Walletbuy />
+                    if (props.path === "presale") {
+                        <PreSale />
+                    }
                     { /* Your app's components go here, nested within the context providers. */ }
                 </WalletModalProvider>
             </WalletProvider>
